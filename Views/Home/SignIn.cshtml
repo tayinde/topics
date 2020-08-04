@@ -1,0 +1,28 @@
+@model SignInViewModel
+@{
+    ViewData["Title"] = "Sign in";
+}
+
+<div class="text-center container" style="height: 500px">
+    <div class="row h-100">
+        <div class="col-sm-12 my-auto">
+            <h1 class="display-4">Sign in</h1>
+            <br>
+            <form method="POST" asp-controller="Home" asp-action="SignIn">
+                <input name="user" placeholder="Username" /><br>
+                <input type="password" name="pwd" placeholder="Password" />
+                <button hidden></button>
+            </form>
+            @try
+            {
+                if (Model.Error != null)
+                {
+                    <br>
+                    <p style="display:inline; color: red;">@Model.Error</p>
+                }
+            } catch {}
+            <br>
+            <small>Don't have an account? Create one <a asp-action="CreateAccountPage">here</a></small>
+        </div>
+    </div>
+</div>
