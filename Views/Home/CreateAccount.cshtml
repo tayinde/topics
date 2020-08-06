@@ -1,0 +1,29 @@
+@model CreateAccountViewModel
+@{
+	ViewData["Title"] = "Create Account";
+}
+
+<div class="text-center container" style="height: 500px">
+    <div class="row h-100">
+        <div class="col-sm-12 my-auto">
+            <h1 class="display-4">Create Account</h1>
+            <br>
+            <form method="POST" asp-controller="Home" asp-action="CreateAccount">
+                <input name="user" placeholder="Create a username" /><br>
+                <input type="password" name="pwd" placeholder="Create a password" />
+                <button hidden></button>
+            </form>
+            @try
+				{	
+						if (Model.Error != null)
+						{
+							<br>
+							<p style="display:inline; color: red;">@Model.Error</p>
+						}
+				} catch {}
+            <br>
+            <small>Have an account already? Sign in <a asp-action="SignIn">here</a></small>
+        </div>
+    </div>
+</div>
+

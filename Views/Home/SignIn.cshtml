@@ -8,7 +8,7 @@
         <div class="col-sm-12 my-auto">
             <h1 class="display-4">Sign in</h1>
             <br>
-            <form method="POST" asp-controller="Home" asp-action="SignIn">
+            <form method="POST" asp-antiforgery="false" asp-controller="Home" asp-action="SignIn">
                 <input name="user" placeholder="Username" /><br>
                 <input type="password" name="pwd" placeholder="Password" />
                 <button hidden></button>
@@ -22,7 +22,7 @@
                 }
             } catch {}
             <br>
-            <small>Don't have an account? Create one <a asp-action="CreateAccountPage">here</a></small>
+            <small>Don't have an account? Create one <a asp-action="CreateAccount">here</a></small>
         </div>
     </div>
 </div>

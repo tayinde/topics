@@ -20551,6 +20551,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/ta334/Codes/C#/Topics/Views/Home/CreateAccount.cshtml",
+      "TargetPath": "Views\\Home\\CreateAccount.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/ta334/Codes/C#/Topics/Views/Home/SignIn.cshtml",
       "TargetPath": "Views\\Home\\SignIn.cshtml",
       "FileKind": "mvc"

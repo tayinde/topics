@@ -24,6 +24,8 @@ namespace Topics
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddResponseCaching();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,8 +39,10 @@ namespace Topics
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+             
                 app.UseHsts();
             }
+            app.UseResponseCaching();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
