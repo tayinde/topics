@@ -46,3 +46,4 @@
 /home/ta334/Codes/C#/Topics/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
 /home/ta334/Codes/C#/Topics/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
 /home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Home/CreateAccount.cshtml.g.cs
+/home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Profile.cshtml.g.cs

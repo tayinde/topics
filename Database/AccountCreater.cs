@@ -16,9 +16,24 @@ namespace Topics.Database
 				{ "user", OriginalUsername }
 			};
 			user = user.ToLower();
+			string ValidUsername = user.Validate();
+			string ValidPassword = pwd.ValidatePassword();
 			MongoDatabaseBase database = new MongoClient(Secrets.DatabaseKey).GetDatabase("Accounts") as MongoDatabaseBase;
 			
-			if ((await database.GetCollection<BsonDocument>(user).FindAsync(FindExistence)).FirstOrDefault() != null) return new Dictionary<string, string>() { {"result", "taken"} };
+			if (ValidUsername != "success") return new Dictionary<string, string>()
+			{
+				{"result", "invalid"},
+				{"issue", ValidUsername}
+			};
+			else if (ValidPassword != "success") return new Dictionary<string, string>()
+			{
+				{"result", "invalid"},
+				{"issue", ValidPassword}
+			};
+			else if ((await database.GetCollection<BsonDocument>(user).FindAsync(FindExistence)).FirstOrDefault() != null) return new Dictionary<string, string>()
+			{
+				{ "result", "taken" }
+			};
 			else
 			{
 				database.CreateCollection(user);
@@ -27,7 +42,8 @@ namespace Topics.Database
 				{
 					{ "user", OriginalUsername },
 					{ "pwd", pwd},
-					{ "token", token }
+					{ "token", token },
+					{ "profile_picture", "/images/default_profile_picture.jpg"}
 				};
 				await database.GetCollection<BsonDocument>(user).InsertOneAsync(data);
 				return new Dictionary<string, string>()

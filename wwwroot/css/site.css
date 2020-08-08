@@ -11,6 +11,10 @@ a.navbar-brand {
 a {
   color: #0366d6;
 }
+#profile_button:hover {
+  cursor: pointer;
+  z-index: 9000;
+}
 
 .btn-primary {
   color: #fff;

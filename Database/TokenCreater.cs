@@ -10,11 +10,11 @@ namespace Topics.Database
 		{
 			string token = "";
 			Random random = new Random();
-			user += user.Reverse() + random.Next(1, 1000).ToString();
+			user += user.Reverse();
 			for (int i = 0; i < (user.Length <= 20 ? user.Length : 20); i++)
 			{
-				int num = random.Next(65, 91);
-				token += (user[random.Next(user.Length)]).ToString() + (char) num;
+				int num = random.Next(0, 25);
+				token += (user[random.Next(user.Length)]).ToString() + (char) ('a' + num);
 			}
 			return token;
 		}

@@ -1,0 +1,16 @@
+@model ProfileViewModel
+@{
+	ViewData["Home"] = "Profile";
+}
+
+<div class="text-center">
+	<img class="rounded-circle" src="@Model.ProfilePicture">
+	<h2>@Model.Username</h1>
+	<div class="custom-file">
+		<input type="file" class="custom-file-input" id="imgfile"
+			aria-describedby="imgfile" hidden>
+		<label class="btn btn-primary" for="imgfile">Change profile picture</label>
+	</div>
+	<hr>
+	<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
+</div>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using System.Diagnostics;
+using System.Web;
 using System.Threading;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.ResponseCaching;
@@ -38,7 +39,7 @@ namespace Topics.Controllers
 		public async Task<IActionResult> SignIn(string user, string pwd)
 		{
 			if (user == null) return View();
-			Dictionary<string, string> data = (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pwd)) ? new Dictionary<string, string>()
+			Dictionary<string, string> data = (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pwd)) ? new Dictionary<string, string>
 			{
 				{"result", "invalid"}
 			} : await Account.Login(user, pwd);
@@ -46,29 +47,43 @@ namespace Topics.Controllers
 			switch (data["result"])
 			{
 				case "success":
-					return View("Index", new IndexViewModel() { LoggedIn = true, Username = user, Token = data["token"] });
+					return View("Index", new IndexViewModel { LoggedIn = true, Username = user, Token = data["token"] });
 				case "invalid": return View(new SignInViewModel("Invalid login"));
 				case null:
 				case "":
 				default: return View(new SignInViewModel());
 			}
 		}
-		public async Task<IActionResult> CreateAccount(string user, string pwd)
+		public async Task<IActionResult> CreateAccount(string user, string pwd, string pwd_verify)
 		{
 			if (user == null) return View();
-			Dictionary<string, string> data = string.IsNullOrEmpty(user) ? new Dictionary<string, string>() {
-					 {"result", "invalid"}
-				} : await Account.Create(user, pwd);
+			if (pwd != pwd_verify) return View(new CreateAccountViewModel("Passwords do not match"));
+			Dictionary<string, string> data = string.IsNullOrEmpty(user) ? new Dictionary<string, string>
+			{
+				{"result", "invalid"}
+			} : await Account.Create(user, pwd);
 
 			switch (data["result"])
 			{
 				default: return View();
-				case "success": return View("SignIn");
-				case "invalid": return View(new CreateAccountViewModel("Invalid username"));
+				case "success": return Redirect("SignIn");
+				case "invalid": return View(new CreateAccountViewModel(data["issue"]));
 				case "taken": return View(new CreateAccountViewModel("Username is taken"));
 				case null:
 				case "": return View(new CreateAccountViewModel());
 			}
+		}
+		public async Task<IActionResult> Profile(string user, string token, string requesting)
+		{
+			token = HttpUtility.UrlDecode(token);
+			Console.WriteLine("user " + user + "\ntoken " + token);
+			if (await Account.Exists(user ?? "-", token ?? "-"))
+				return View(new ProfileViewModel
+				{
+					Username = user,
+					ProfilePicture = await Account.GetProperty(user, "profile_picture")
+				});
+			return Redirect("Index");
 		}
 
 		[IgnoreAntiforgeryToken]
