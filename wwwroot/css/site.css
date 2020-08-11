@@ -7,6 +7,16 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.circular-landscape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;

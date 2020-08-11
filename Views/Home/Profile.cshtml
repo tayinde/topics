@@ -1,19 +1,31 @@
 @model ProfileViewModel
 @{
-	ViewData["Home"] = "Profile";
+	ViewData["Title"] = "Profile";
 }
 
 <div class="text-center">
-	<img width="300" height="300" class="rounded-circle" src="@Model.ProfilePicture"><br><br>
+	<div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
 	<h2 id="username">@Model.Username</h2>
-	<form id="profile-change" enctype="multipart/form-data" class="md-form" asp-controller="Img" asp-action="Upload" method="POST">
-		<input name="file" type="file" class="form-control">
-		<input name="user" id="u" hidden>
-		<input name="token" id="token" hidden><br>
-		<button class="btn btn-primary">Set Profile Picture</button>
+	<br>
+	<form id="profile-change" enctype="multipart/form-data" class="md-form w-100" asp-controller="Img" asp-action="Upload" method="POST">
+		<div class="form-row">
+			<div class="col-12">
+				<div class="input-group mb-3">
+					<div class="custom-file">
+						<input name="file" type="file" class="custom-file-input" id="input-file">
+						<label class="custom-file-label" for="input-file">Choose file</label>
+					</div>
+					<div class="input-group-append">
+						<button class="btn btn-primary">Set Profile Picture</button>
+					</div>
+				</div>
+				<input name="user" id="u" hidden>
+				<input name="token" id="token" hidden>
+			</div>
+		</div>
 	</form>
 	<hr>
-	<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
+	<button onclick="javascript:logout()" type="button" class="btn btn-danger w-50">Logout</button>
 </div>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="/js/profile.js"></script>

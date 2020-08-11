@@ -15,3 +15,10 @@ else
 	$('#u').attr('value', user);
 	$('#token').attr('value', token);
 }
+
+$('#input-file').on('change', () =>
+{
+	var fileName = $('#input-file').val();
+	var parts = fileName.split('\\');
+	$('#input-file').next('.custom-file-label').html(parts[parts.length - 1]);
+})
