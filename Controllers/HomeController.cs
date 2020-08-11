@@ -76,14 +76,17 @@ namespace Topics.Controllers
 		public async Task<IActionResult> Profile(string user, string token, string requesting)
 		{
 			token = HttpUtility.UrlDecode(token);
-			Console.WriteLine("user " + user + "\ntoken " + token);
 			if (await Account.Exists(user ?? "-", token ?? "-"))
 				return View(new ProfileViewModel
 				{
 					Username = user,
 					ProfilePicture = await Account.GetProperty(user, "profile_picture")
 				});
-			return Redirect("Index");
+			return View(new ProfileViewModel
+			{
+				Username = "",
+				ProfilePicture = ""
+			});
 		}
 
 		[IgnoreAntiforgeryToken]

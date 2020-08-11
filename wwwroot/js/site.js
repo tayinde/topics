@@ -19,7 +19,10 @@ $(() =>
 		e.preventDefault();
 		window.location.href = `/Home/Profile?user=${username}&token=${token}`
 	})
-	window.history.pushState("object or string", "Title", window.location.href.split('?')[0]);
+	if (window.location.href.split('?')[0] != window.location.href)
+	{
+		window.history.pushState("object or string", "Title", window.location.href.split('?')[0]);
+	}
 });
 
 var logout = () =>

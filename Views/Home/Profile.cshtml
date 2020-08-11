@@ -4,13 +4,16 @@
 }
 
 <div class="text-center">
-	<img class="rounded-circle" src="@Model.ProfilePicture">
-	<h2>@Model.Username</h1>
-	<div class="custom-file">
-		<input type="file" class="custom-file-input" id="imgfile"
-			aria-describedby="imgfile" hidden>
-		<label class="btn btn-primary" for="imgfile">Change profile picture</label>
-	</div>
+	<img width="300" height="300" class="rounded-circle" src="@Model.ProfilePicture"><br><br>
+	<h2 id="username">@Model.Username</h2>
+	<form id="profile-change" enctype="multipart/form-data" class="md-form" asp-controller="Img" asp-action="Upload" method="POST">
+		<input name="file" type="file" class="form-control">
+		<input name="user" id="u" hidden>
+		<input name="token" id="token" hidden><br>
+		<button class="btn btn-primary">Set Profile Picture</button>
+	</form>
 	<hr>
 	<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 </div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/profile.js"></script>
