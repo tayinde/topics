@@ -73,19 +73,43 @@ namespace Topics.Controllers
 				case "": return View(new CreateAccountViewModel());
 			}
 		}
-		public async Task<IActionResult> Profile(string user, string token, string requesting)
+		public async Task<ActionResult> ChangePassword(string user, string token, string old, string newPassword, string newAgain)
+		{
+			if (user != null && token != null && old != null && newPassword != null && newAgain != null)
+				if (await Account.Exists(user, token))
+					if (await Account.GetProperty(user, "pwd") == old)
+						if (newPassword == newAgain)
+							if (newPassword.ValidatePassword() == "success")
+								await Account.UpdateProperty(user, "pwd", newPassword);
+							else
+								return RedirectToAction("Profile", new {passwordError = newPassword.ValidatePassword()});
+						else
+							return RedirectToAction("Profile", new {passwordError = "Passwords do not match"});
+					else
+						return RedirectToAction("Profile", new {passwordError = "Incorrect password"});
+				else
+					return RedirectToAction("Profile", new {passwordError = "Authentication error"});
+			else
+				return RedirectToAction("Profile", new {passwordError = "None of the fields can be empty"});
+			return RedirectToAction("Profile", new {passwordSuccess = "Password changed successfully."});
+		}
+		public async Task<IActionResult> Profile(string user, string token, string passwordError, string passwordSuccess)
 		{
 			token = HttpUtility.UrlDecode(token);
 			if (await Account.Exists(user ?? "-", token ?? "-"))
 				return View(new ProfileViewModel
 				{
 					Username = user,
-					ProfilePicture = await Account.GetProperty(user, "profile_picture")
+					ProfilePicture = await Account.GetProperty(user, "profile_picture"),
+					PasswordChangeError = passwordError,
+					PasswordChangeSuccess = passwordSuccess
 				});
 			return View(new ProfileViewModel
 			{
 				Username = "",
-				ProfilePicture = ""
+				ProfilePicture = "",
+				PasswordChangeError = passwordError,
+				PasswordChangeSuccess = passwordSuccess
 			});
 		}
 

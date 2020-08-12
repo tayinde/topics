@@ -2,12 +2,18 @@
 @{
 	ViewData["Title"] = "Profile";
 }
-
+<form id="verify" method="POST" asp-action="Profile" asp-antiforgery=false hidden>
+	<input name="user" class="username" hidden>
+	<input name="passwordError" value="@Model.PasswordChangeError" hidden>
+	<input name="passwordSuccess" value="@Model.PasswordChangeSuccess" hidden>
+	<input name="token" class="token" hidden>
+	<button hidden></button>
+</form>
 <div class="text-center">
 	<div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
 	<h2 id="username">@Model.Username</h2>
 	<br>
-	<form id="profile-change" enctype="multipart/form-data" class="md-form w-100" asp-controller="Img" asp-action="Upload" method="POST">
+	<form id="profile-change" enctype="multipart/form-data" class="md-form w-100" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
 		<div class="form-row">
 			<div class="col-12">
 				<div class="input-group mb-3">
@@ -19,13 +25,26 @@
 						<button class="btn btn-primary">Set Profile Picture</button>
 					</div>
 				</div>
-				<input name="user" id="u" hidden>
-				<input name="token" id="token" hidden>
+				<input name="user" class="username" hidden>
+				<input name="token" class="token" hidden>
 			</div>
 		</div>
 	</form>
-	<hr>
-	<button onclick="javascript:logout()" type="button" class="btn btn-danger w-50">Logout</button>
 </div>
+<hr>
+<h3>Change your password</h3>
+<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
+	<input type="hidden" name="user" class="username" hidden>
+	<input type="hidden" name="token" class="token" hidden>
+	<input autocomplete="off" type="password" name="old" placeholder="Old password">
+	<input autocomplete="off" type="password" name="newPassword" placeholder="New password">
+	<input autocomplete="off" type="password" name="newAgain" placeholder="Retype new password">
+	<button class="btn btn-primary">Change password</button>
+</form>
+<p class="error-message">@Model.PasswordChangeError</p>
+<p class="text-success">@Model.PasswordChangeSuccess</p>
+<br>
+<hr>
+<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="/js/profile.js"></script>

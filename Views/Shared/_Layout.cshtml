@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 gradient-nav">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Topics</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -31,9 +31,13 @@
             <li id="signin" class="nav-item">
                 <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
             </li>
-            <li id="user" class="nav-item">
+            <li id="profile" class="nav-item">
                 <a class="nav-link text-light" asp-controller="Home" asp-action="Profile"></a>
             </li>
+            <form id="verifyNav" method="POST" asp-action="Profile" asp-antiforgery=false hidden>
+                <input name="user" class="username" hidden>
+                <input name="token" class="token" hidden>
+            </form>
         </nav>
     </header>
     <div class="container">

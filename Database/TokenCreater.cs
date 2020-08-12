@@ -22,7 +22,7 @@ namespace Topics.Database
 		{
 			string token = "";
 			Random random = new Random();
-			user += user.Reverse();
+			user += user.Reverse().ToString();
 			for (int i = 0; i < (user.Length <= 20 ? user.Length : 20); i++)
 			{
 				int num = random.Next(0, 25);

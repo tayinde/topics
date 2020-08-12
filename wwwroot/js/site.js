@@ -6,7 +6,7 @@ token = encodeURIComponent(token);
 $(() =>
 {
 	if (username != null) {
-		$('#user')
+		$('#profile')
 			.css('display', 'block')
 			.contents()
 			.html(username)
@@ -14,15 +14,13 @@ $(() =>
 	else {
 		$('#signin').css('display', 'block')
 	}
-	$('#user').contents().on('click', (e) =>
+	$('#profile').contents().on('click', (e) =>
 	{
 		e.preventDefault();
-		window.location.href = `/Home/Profile?user=${username}&token=${token}`
+		$('.username').attr('value', username);
+		$('.token').attr('value', token);
+		$('#verifyNav').submit();
 	})
-	if (window.location.href.split('?')[0] != window.location.href)
-	{
-		window.history.pushState("object or string", "Title", window.location.href.split('?')[0]);
-	}
 });
 
 var logout = () =>
