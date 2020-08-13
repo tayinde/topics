@@ -1,0 +1,794 @@
+Icon theme "Numix-Circle" not found.
+KCrash: Attempting to start /usr/bin/latte-dock
+KCrash: crashing... crashRecursionCounter = 2
+KCrash: Application Name = latte-dock path = /usr/bin pid = 262858
+KCrash: Arguments: /usr/bin/latte-dock --replace 
+Icon theme "Numix-Circle" not found.
+Icon theme "Numix-Circle" not found.
+qt.qpa.xcb: QXcbConnection: XCB error: 5 (BadAtom), sequence: 699, resource id: 0, major code: 20 (GetProperty), minor code: 0
+kf5.kio.core: We got some errors while running testparm "Error loading services."
+kf5.kio.core: We got some errors while running 'net usershare info'
+kf5.kio.core: "Can't load /etc/samba/smb.conf - run testparm to debug it\n"
+
+(firefox:266492): Gtk-WARNING **: 11:47:44.212: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:266492): Gtk-WARNING **: 11:47:44.212: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:47:44.563: Failed to load module "appmenu-gtk-module"
+
+(firefox:266589): Gtk-WARNING **: 11:47:55.417: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:266589): Gtk-WARNING **: 11:47:55.419: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:47:55.534: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266648): Gtk-WARNING **: 11:47:56.392: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266648): Gtk-WARNING **: 11:47:56.393: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:47:56.498: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266648): Gtk-WARNING **: 11:47:56.882: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266648): Gtk-WARNING **: 11:47:56.884: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266684): Gtk-WARNING **: 11:47:57.502: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266684): Gtk-WARNING **: 11:47:57.514: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+
+(firefox:266589): GLib-GIO-WARNING **: 11:47:57.668: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 11:47:57.697: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266707): Gtk-WARNING **: 11:47:57.965: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266707): Gtk-WARNING **: 11:47:57.973: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266684): Gtk-WARNING **: 11:47:58.059: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266684): Gtk-WARNING **: 11:47:58.062: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:47:58.101: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266707): Gtk-WARNING **: 11:47:58.719: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266707): Gtk-WARNING **: 11:47:58.721: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266749): Gtk-WARNING **: 11:47:58.845: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266749): Gtk-WARNING **: 11:47:58.851: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:47:59.050: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266749): Gtk-WARNING **: 11:48:00.120: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266749): Gtk-WARNING **: 11:48:00.121: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266822): Gtk-WARNING **: 11:48:03.228: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266822): Gtk-WARNING **: 11:48:03.243: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:03.488: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:266822): Gtk-WARNING **: 11:48:17.657: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266822): Gtk-WARNING **: 11:48:17.660: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266891): Gtk-WARNING **: 11:48:17.912: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:266891): Gtk-WARNING **: 11:48:17.915: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:18.019: Failed to load module "appmenu-gtk-module"
+
+(firefox:267016): Gtk-WARNING **: 11:48:28.438: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:267016): Gtk-WARNING **: 11:48:28.439: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:28.626: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267074): Gtk-WARNING **: 11:48:29.737: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267074): Gtk-WARNING **: 11:48:29.740: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:29.843: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267074): Gtk-WARNING **: 11:48:30.216: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267074): Gtk-WARNING **: 11:48:30.217: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(firefox:267016): GLib-GIO-WARNING **: 11:48:30.369: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:267143): Gtk-WARNING **: 11:48:31.159: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267143): Gtk-WARNING **: 11:48:31.159: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:31.300: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267143): Gtk-WARNING **: 11:48:31.952: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267143): Gtk-WARNING **: 11:48:31.956: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267236): Gtk-WARNING **: 11:48:35.667: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267236): Gtk-WARNING **: 11:48:35.670: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:35.954: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267236): Gtk-WARNING **: 11:48:37.040: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267236): Gtk-WARNING **: 11:48:37.056: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267271): Gtk-WARNING **: 11:48:37.527: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267271): Gtk-WARNING **: 11:48:37.530: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:48:37.675: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267271): Gtk-WARNING **: 11:49:56.822: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267271): Gtk-WARNING **: 11:49:56.823: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267590): Gtk-WARNING **: 11:49:57.140: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267590): Gtk-WARNING **: 11:49:57.141: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:49:57.281: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267590): Gtk-WARNING **: 11:50:59.813: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267590): Gtk-WARNING **: 11:50:59.822: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267824): Gtk-WARNING **: 11:50:59.997: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267824): Gtk-WARNING **: 11:50:59.999: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 11:51:00.105: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267824): Gtk-WARNING **: 12:00:31.014: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:267824): Gtk-WARNING **: 12:00:31.015: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:270891): Gtk-WARNING **: 12:00:31.360: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:270891): Gtk-WARNING **: 12:00:31.362: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 12:00:31.484: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:270891): Gtk-WARNING **: 12:03:31.167: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:270891): Gtk-WARNING **: 12:03:31.167: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:271686): Gtk-WARNING **: 12:03:31.570: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:271686): Gtk-WARNING **: 12:03:31.570: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 12:03:31.670: Failed to load module "appmenu-gtk-module"
+Icon theme "Numix-Circle" not found.
+qt.qpa.xcb: QXcbConnection: XCB error: 5 (BadAtom), sequence: 700, resource id: 0, major code: 20 (GetProperty), minor code: 0
+kf5.kio.core: We got some errors while running testparm "Error loading services."
+kf5.kio.core: We got some errors while running 'net usershare info'
+kf5.kio.core: "Can't load /etc/samba/smb.conf - run testparm to debug it\n"
+
+(/usr/lib/firefox/firefox:271686): Gtk-WARNING **: 12:17:51.393: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:271686): Gtk-WARNING **: 12:17:51.396: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:274413): Gtk-WARNING **: 12:17:51.713: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:274413): Gtk-WARNING **: 12:17:51.716: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 12:17:51.822: Failed to load module "appmenu-gtk-module"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(/usr/lib/firefox/firefox:276825): Gtk-WARNING **: 12:26:47.043: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:276825): Gtk-WARNING **: 12:26:47.044: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:274413): Gtk-WARNING **: 12:26:47.045: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:274413): Gtk-WARNING **: 12:26:47.046: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 12:26:47.219: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:276825): Gtk-WARNING **: 12:28:31.052: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:276825): Gtk-WARNING **: 12:28:31.055: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:277425): Gtk-WARNING **: 12:28:31.219: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:277425): Gtk-WARNING **: 12:28:31.223: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 12:28:31.634: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:277425): Gtk-WARNING **: 13:26:15.768: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:277425): Gtk-WARNING **: 13:26:15.769: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:291118): Gtk-WARNING **: 13:26:15.918: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:291118): Gtk-WARNING **: 13:26:15.919: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 13:26:16.019: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:291118): Gtk-WARNING **: 13:33:30.881: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:291118): Gtk-WARNING **: 13:33:30.884: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:292704): Gtk-WARNING **: 13:33:31.138: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:292704): Gtk-WARNING **: 13:33:31.141: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 13:33:31.235: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:292704): Gtk-WARNING **: 13:52:37.347: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:292704): Gtk-WARNING **: 13:52:37.352: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:297320): Gtk-WARNING **: 13:52:37.555: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:297320): Gtk-WARNING **: 13:52:37.560: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 13:52:37.770: Failed to load module "appmenu-gtk-module"
+[Child 267590, MediaDecoderStateMachine #1] WARNING: Decoder=7f7be28fbc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 267590, MediaDecoderStateMachine #1] WARNING: Decoder=7f7be28fbc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+(/usr/lib/firefox/firefox:297320): Gtk-WARNING **: 14:06:19.054: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:297320): Gtk-WARNING **: 14:06:19.058: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:301654): Gtk-WARNING **: 14:06:19.924: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:301654): Gtk-WARNING **: 14:06:19.930: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 14:06:20.261: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:301654): Gtk-WARNING **: 14:23:30.938: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:301654): Gtk-WARNING **: 14:23:30.942: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:306256): Gtk-WARNING **: 14:23:31.124: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:306256): Gtk-WARNING **: 14:23:31.127: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 14:23:31.218: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:267236): GLib-GIO-WARNING **: 15:46:19.553: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:306256): Gtk-WARNING **: 15:46:20.955: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:306256): Gtk-WARNING **: 15:46:20.959: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:323650): Gtk-WARNING **: 15:46:21.138: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:323650): Gtk-WARNING **: 15:46:21.138: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 15:46:21.229: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:323650): Gtk-WARNING **: 16:30:56.141: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:323650): Gtk-WARNING **: 16:30:56.142: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(firefox:333412): Gtk-WARNING **: 16:31:20.704: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:333412): Gtk-WARNING **: 16:31:20.704: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 16:31:20.757: Failed to load module "appmenu-gtk-module"
+
+(thunderbird:335684): Gtk-WARNING **: 16:41:31.281: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(thunderbird:335684): Gtk-WARNING **: 16:41:31.281: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 16:41:31.342: Failed to load module "appmenu-gtk-module"
+console.log: WebExtensions: Loading packed extension from /home/ta334/.thunderbird/zmp1p3jm.default-release/extensions/{e2fda1a4-762b-4020-b5ad-a41df1933103}.xpi
+
+(thunderbird:335684): GLib-GIO-WARNING **: 16:41:33.250: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.log: WebExtensions: Loading add-on preferences from  /home/ta334/.thunderbird/zmp1p3jm.default-release/extensions/{e2fda1a4-762b-4020-b5ad-a41df1933103}.xpi
+console.log: WebExtensions: Firing profile-after-change listeners for {e2fda1a4-762b-4020-b5ad-a41df1933103}
+[calBackendLoader] Using Thunderbird's builtin libical backend
+JavaScript error: chrome://lightning/content/imip-bar.js, line 81: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: chrome://messenger/content/mailWindow.js, line 226: TypeError: messagepane.docShell is null
+Icon theme "Numix-Circle" not found.
+qt.qpa.xcb: QXcbConnection: XCB error: 5 (BadAtom), sequence: 699, resource id: 0, major code: 20 (GetProperty), minor code: 0
+kf5.kio.core: We got some errors while running testparm "Error loading services."
+kf5.kio.core: We got some errors while running 'net usershare info'
+kf5.kio.core: "Can't load /etc/samba/smb.conf - run testparm to debug it\n"
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7bd1bc7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #19] WARNING: Decoder=7f7be2729400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc72f9800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8d4000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8d4000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8d4000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bcb8f3800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #22] WARNING: Decoder=7f7bc8fb4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 267590, MediaDecoderStateMachine #1] WARNING: Decoder=7f7bc2df2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SeekPromise> mozilla::MediaSourceTrackDemuxer::DoSeek(const mozilla::media::TimeUnit &): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+(firefox:423471): Gtk-WARNING **: 22:48:19.649: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:423471): Gtk-WARNING **: 22:48:19.649: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 22:48:19.714: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:423491): Gtk-WARNING **: 22:48:19.982: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:423491): Gtk-WARNING **: 22:48:19.982: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 22:48:20.089: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:423491): Gtk-WARNING **: 22:48:20.492: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:423491): Gtk-WARNING **: 22:48:20.493: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:423530): Gtk-WARNING **: 22:48:22.004: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:423530): Gtk-WARNING **: 22:48:22.005: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 22:48:22.107: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:423530): Gtk-WARNING **: 22:57:21.425: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:423530): Gtk-WARNING **: 22:57:21.425: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44068c2c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44033ed400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44033ed400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44033ed400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44033ed400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f44033ed400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4f1c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc444000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f379f400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f379f400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f379f400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc82dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43fc44c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0acf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ebfb6c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f4de2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a60800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0ac3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0ac3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0ac3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0ac3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0ac3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0586800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a64400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a64400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a64400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a64400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a64400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f080d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #2] WARNING: Decoder=7f43f0a69800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0a6ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43f0590000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4bd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4be800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4c5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4c5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4c5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4c5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43ec4c5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c77c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c93800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c93800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c93800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c93800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c93800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 274413, MediaDecoderStateMachine #1] WARNING: Decoder=7f43e5c8a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-79.0/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+(firefox:458370): Gtk-WARNING **: 02:17:15.690: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(firefox:458370): Gtk-WARNING **: 02:17:15.691: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:17:15.811: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:458436): Gtk-WARNING **: 02:17:16.806: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458436): Gtk-WARNING **: 02:17:16.807: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:17:16.898: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:458436): Gtk-WARNING **: 02:17:17.278: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458436): Gtk-WARNING **: 02:17:17.284: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(firefox:458370): GLib-GIO-WARNING **: 02:17:17.637: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:458490): Gtk-WARNING **: 02:17:18.531: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458490): Gtk-WARNING **: 02:17:18.534: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:17:18.626: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:458490): Gtk-WARNING **: 02:17:18.982: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458490): Gtk-WARNING **: 02:17:18.983: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458544): Gtk-WARNING **: 02:17:20.829: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458544): Gtk-WARNING **: 02:17:20.833: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:17:20.921: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:458561): Gtk-WARNING **: 02:17:21.102: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458561): Gtk-WARNING **: 02:17:21.102: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:17:21.215: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:458544): Gtk-WARNING **: 02:17:21.364: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458544): Gtk-WARNING **: 02:17:21.365: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458561): Gtk-WARNING **: 02:25:05.549: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:458561): Gtk-WARNING **: 02:25:05.551: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:459844): Gtk-WARNING **: 02:25:05.773: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:459844): Gtk-WARNING **: 02:25:05.774: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:25:05.891: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:459844): Gtk-WARNING **: 02:28:15.329: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:459844): Gtk-WARNING **: 02:28:15.330: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:460464): Gtk-WARNING **: 02:28:15.514: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:460464): Gtk-WARNING **: 02:28:15.516: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:28:15.623: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:460464): Gtk-WARNING **: 02:33:25.092: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:460464): Gtk-WARNING **: 02:33:25.092: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:461672): Gtk-WARNING **: 02:33:25.171: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:461672): Gtk-WARNING **: 02:33:25.172: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:33:25.259: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:462021): Gtk-WARNING **: 02:35:05.331: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462021): Gtk-WARNING **: 02:35:05.332: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:461672): Gtk-WARNING **: 02:35:05.345: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:461672): Gtk-WARNING **: 02:35:05.348: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:35:05.410: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:462021): Gtk-WARNING **: 02:37:18.341: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462021): Gtk-WARNING **: 02:37:18.342: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462777): Gtk-WARNING **: 02:37:18.533: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462777): Gtk-WARNING **: 02:37:18.534: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:37:18.645: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:463585): Gtk-WARNING **: 02:39:03.704: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:463585): Gtk-WARNING **: 02:39:03.704: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462777): Gtk-WARNING **: 02:39:03.708: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:462777): Gtk-WARNING **: 02:39:03.709: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:39:03.818: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:463585): Gtk-WARNING **: 02:42:18.308: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:463585): Gtk-WARNING **: 02:42:18.309: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:464820): Gtk-WARNING **: 02:42:18.492: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:464820): Gtk-WARNING **: 02:42:18.492: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:42:18.595: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:464820): Gtk-WARNING **: 02:51:44.713: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:464820): Gtk-WARNING **: 02:51:44.713: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467729): Gtk-WARNING **: 02:51:44.977: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467729): Gtk-WARNING **: 02:51:44.978: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:51:45.083: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:467729): Gtk-WARNING **: 02:52:18.312: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467729): Gtk-WARNING **: 02:52:18.319: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467889): Gtk-WARNING **: 02:52:18.469: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467889): Gtk-WARNING **: 02:52:18.472: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 02:52:18.605: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:467889): Gtk-WARNING **: 03:20:18.920: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:467889): Gtk-WARNING **: 03:20:18.921: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:478661): Gtk-WARNING **: 03:20:19.265: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:478661): Gtk-WARNING **: 03:20:19.266: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 03:20:19.347: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:478661): Gtk-WARNING **: 03:21:10.278: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:478661): Gtk-WARNING **: 03:21:10.281: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name
+
+(/usr/lib/firefox/firefox:479054): Gtk-WARNING **: 03:21:10.374: Theme parsing error: gtk-dark.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:479054): Gtk-WARNING **: 03:21:10.374: Theme parsing error: gtk-dark.css:8380:7: 'width' is not a valid property name
+Gtk-Message: 03:21:10.488: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:479054): Gtk-WARNING **: 03:26:21.968: Theme parsing error: gtk.css:8378:11: 'max-width' is not a valid property name
+
+(/usr/lib/firefox/firefox:479054): Gtk-WARNING **: 03:26:21.969: Theme parsing error: gtk.css:8380:7: 'width' is not a valid property name

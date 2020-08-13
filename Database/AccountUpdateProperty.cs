@@ -18,7 +18,7 @@ namespace Topics.Database
 
 			IMongoCollection<BsonDocument> collection = database.GetCollection<BsonDocument>(user);
 
-			FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("user", user);
+			FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("user", OriginalUser);
 			UpdateDefinition<BsonDocument> update = Builders<BsonDocument>.Update.Set(property, value);
 
 			await collection.UpdateOneAsync(filter, update);

@@ -2,20 +2,18 @@
 var user = localStorage.getItem('user') || null;
 var token = localStorage.getItem('token') || null;
 
-if (user == null)
+setInterval(() =>
 {
-	window.location.href = '/';
-}
-else
-{
+	user = localStorage.getItem('user') || null;
+	token = localStorage.getItem('token') || null
 	$('.username').attr('value', user);
 	$('.token').attr('value', token);
-}
-
-if ($('#username').text() == "" && user != null)
-{
-	$('#verify').submit();
-}
+	if (user == null || token == null)
+	{
+		window.location.href = '/';
+	}
+	if (submit || null == true) $('#verify').submit();
+}, 200);
 
 $('#input-file').on('change', () =>
 {

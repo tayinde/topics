@@ -23,21 +23,28 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Topics" asp-action="Discussions">Discussions</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <li id="signin" class="nav-item">
-                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
-            </li>
-            <li id="profile" class="nav-item">
-                <a class="nav-link text-light" asp-controller="Home" asp-action="Profile"></a>
-            </li>
-            <form id="verifyNav" method="POST" asp-action="Profile" asp-antiforgery=false hidden>
-                <input name="user" class="username" hidden>
-                <input name="token" class="token" hidden>
-            </form>
+             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li id="profile" class="nav-item">
+                        <a class="no-wrap nav-link text-light" asp-controller="Home" asp-action="Profile"></a>
+                    </li>
+                    <li id="signin" class="nav-item">
+                        <a class="no-wrap nav-link text-light min-width-100" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
+                    </li>
+                    <form id="verifyNav" method="POST" asp-controller="Home" asp-action="Profile" asp-antiforgery=false hidden>
+                        <input name="user" class="username" hidden>
+                        <input name="token" class="token" hidden>
+                    </form>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="container">

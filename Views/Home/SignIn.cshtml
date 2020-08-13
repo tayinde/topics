@@ -6,23 +6,28 @@
 <div class="text-center container" style="height: 500px">
     <div class="row h-100">
         <div class="col-sm-12 my-auto">
-            <h1 class="display-4">Sign in</h1>
-            <br>
-            <form method="POST" asp-antiforgery="false" asp-controller="Home" asp-action="SignIn">
-                <input name="user" placeholder="Username" /><br>
-                <input type="password" name="pwd" placeholder="Password" />
-                <button hidden></button>
-            </form>
-            @try
-            {
-                if (Model.Error != null)
-                {
+            <div class="card mx-auto w-25 account-form">
+                <h4 class="card-title margin-top-small">Sign in</h4>
+                <div class="bg-light card-body">
                     <br>
-                    <p style="display:inline; color: red;">@Model.Error</p>
-                }
-            } catch {}
-            <br>
-            <small>Don't have an account? Create one <a asp-action="CreateAccount">here</a></small>
+                    <form class="md-form" method="POST" asp-antiforgery="false" asp-controller="Home" asp-action="SignIn">
+                        <input class="small-text form-control bottom-line-input" type="text" name="user" placeholder="Username" /><br>
+                        <input class="small-text form-control bottom-line-input" type="password" name="pwd" placeholder="Password" /><br>
+                        <button class="btn btn-primary">Sign in</button>
+                    </form>
+                    @try
+                    {
+                        if (Model.Error != null)
+                        {
+                            <br>
+                            <p class="text-danger small-text">@Model.Error</p>
+                        }
+                    } catch {}
+                </div>
+                <div class="card-body">
+                    <small>Don't have an account? Register <a asp-action="CreateAccount">here</a></small>
+                </div>
+            </div>
         </div>
     </div>
 </div>

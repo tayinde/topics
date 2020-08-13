@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/ta334/Codes/C#/Topics/Views/Topics/Discussions.cshtml",
+      "TargetPath": "Views\\Topics\\Discussions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/ta334/Codes/C#/Topics/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

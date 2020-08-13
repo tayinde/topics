@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Web;
 using System;
 
 namespace Topics.Database
@@ -28,7 +29,7 @@ namespace Topics.Database
 				int num = random.Next(0, 25);
 				token += user[random.Next(0, user.Length - 1)] + (char) ('a' + num);
 			}
-			return token;
+			return HttpUtility.HtmlEncode(token);
 		}
 	}
 }

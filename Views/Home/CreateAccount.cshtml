@@ -6,24 +6,29 @@
 <div class="text-center container" style="height: 500px">
     <div class="row h-100">
         <div class="col-sm-12 my-auto">
-            <h1 class="display-4">Create Account</h1>
-            <br>
-            <form method="POST" asp-controller="Home" asp-action="CreateAccount">
-                <input name="user" placeholder="Create a username" /><br>
-                <input type="password" name="pwd" placeholder="Create a password" /><br>
-                <input type="password" name="pwd_verify" placeholder="Type your password again" />
-                <button hidden></button>
-            </form>
-            @try
-				{	
-                    if (Model.Error != null)
-                    {
-                        <br>
-                        <p style="display:inline; color: red;">@Model.Error</p>
-                    }
-				} catch {}
-            <br>
-            <small>Have an account already? Sign in <a asp-action="SignIn">here</a></small>
+            <div class="card mx-auto w-25 account-form">
+                <h4 class="card-title margin-top-small">Create account</h4>
+                <div class="bg-light card-body">
+                    <br>
+                    <form class="md-form" method="POST" asp-controller="Home" asp-action="CreateAccount">
+                        <input class="small-text form-control bottom-line-input" name="user" placeholder="Create a username" /><br>
+                        <input class="small-text form-control bottom-line-input" type="password" name="pwd" placeholder="Create a password" /><br>
+                        <input class="small-text form-control bottom-line-input" type="password" name="pwd_verify" placeholder="Type your password again" /><br>
+                        <button class="btn btn-primary">Create account</button>
+                    </form>
+                    @try
+                    {	
+                        if (Model.Error != null)
+                        {
+                            <br>
+                            <p class="text-danger small-text">@Model.Error</p>
+                        }
+                    } catch {}
+                </div>
+                <div class="card-body">
+                    <small>Already have an account? Sign in <a asp-action="Signin">here</a></small>
+                </div>
+            </div>
         </div>
     </div>
 </div>

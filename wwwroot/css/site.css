@@ -1,5 +1,8 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Noto+Sans&display=swap');
+
+* {
+  font-family: 'Noto Sans' !important;
+}
 
 a.navbar-brand {
   white-space: normal;
@@ -40,6 +43,10 @@ a {
 
 /* Sticky footer styles
 -------------------------------------------------- */
+.account-form {
+  width: auto;
+}
+
 html {
   font-size: 14px;
 }
@@ -50,6 +57,11 @@ html {
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .account-form {
+    width: 100% !important;
   }
 }
 
@@ -93,9 +105,29 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-#profile, #signin
-{
+.bottom-line-input {
+  border-radius: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: black !important;
+  border-bottom: 1px solid silver !important;
+  padding: 10px;
+}
+
+.small-text {
+  font-size: 14px !important;
+}
+
+.margin-top-small {
+  margin-top: 10px;
+}
+
+#profile, #signin {
   display: none;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 #sign-in-box

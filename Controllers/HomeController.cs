@@ -82,11 +82,11 @@ namespace Topics.Controllers
 							if (newPassword.ValidatePassword() == "success")
 								await Account.UpdateProperty(user, "pwd", newPassword);
 							else
-								return RedirectToAction("Profile", new {passwordError = newPassword.ValidatePassword()});
+								return RedirectToAction("Profile", new { passwordError = newPassword.ValidatePassword() });
 						else
-							return RedirectToAction("Profile", new {passwordError = "Passwords do not match"});
+							return RedirectToAction("Profile", new { passwordError = "Passwords do not match" });
 					else
-						return RedirectToAction("Profile", new {passwordError = "Incorrect password"});
+						return RedirectToAction("Profile", new { passwordError = "Incorrect password" });
 				else
 					return RedirectToAction("Profile", new {passwordError = "Authentication error"});
 			else
@@ -95,15 +95,15 @@ namespace Topics.Controllers
 		}
 		public async Task<IActionResult> Profile(string user, string token, string passwordError, string passwordSuccess)
 		{
-			token = HttpUtility.UrlDecode(token);
-			if (await Account.Exists(user ?? "-", token ?? "-"))
-				return View(new ProfileViewModel
-				{
-					Username = user,
-					ProfilePicture = await Account.GetProperty(user, "profile_picture"),
-					PasswordChangeError = passwordError,
-					PasswordChangeSuccess = passwordSuccess
-				});
+			if (user != null && token != null)
+				if (await Account.Exists(user, token))
+					return View(new ProfileViewModel
+					{
+						Username = user,
+						ProfilePicture = await Account.GetProperty(user, "profile_picture"),
+						PasswordChangeError = passwordError,
+						PasswordChangeSuccess = passwordSuccess
+					});
 			return View(new ProfileViewModel
 			{
 				Username = "",
