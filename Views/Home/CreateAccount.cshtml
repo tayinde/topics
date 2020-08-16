@@ -7,10 +7,10 @@
     <div class="row h-100">
         <div class="col-sm-12 my-auto">
             <div class="card mx-auto w-25 account-form">
-                <h4 class="card-title margin-top-small">Create account</h4>
-                <div class="bg-light card-body">
+                <span class="bg-silver card-title rounded-top text-dark padding-md h5">Register</span>
+                <div class="bg-white card-body">
                     <br>
-                    <form class="md-form" method="POST" asp-controller="Home" asp-action="CreateAccount">
+                    <form class="md-form" method="POST" asp-controller="Home" asp-action="CreateAccount" asp-antiforgery=true>
                         <input class="small-text form-control bottom-line-input" name="user" placeholder="Create a username" /><br>
                         <input class="small-text form-control bottom-line-input" type="password" name="pwd" placeholder="Create a password" /><br>
                         <input class="small-text form-control bottom-line-input" type="password" name="pwd_verify" placeholder="Type your password again" /><br>

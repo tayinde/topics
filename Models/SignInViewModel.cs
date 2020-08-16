@@ -7,7 +7,10 @@ namespace Topics.Models
 	public class SignInViewModel
 	{
 		public SignInViewModel() {}
-		public SignInViewModel(string Error) => this.Error = Error;
-		public string Error;
+		#nullable enable
+		public SignInViewModel(string? Error) => this.Error = Error;
+		public string? Error { get; set; }
+
+		public bool SignOut = false;
 	}
 }

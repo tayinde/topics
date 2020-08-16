@@ -8,5 +8,10 @@ namespace Topics.Controllers
 		{
 			return View();
 		}
+
+		public IActionResult CreateTopic()
+		{
+			return View();
+		}
 	}
 }

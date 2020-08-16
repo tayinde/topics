@@ -24,6 +24,7 @@ namespace Topics.Controllers
 			this.Logger = Logger;
 		}
 
+		[ResponseCache(NoStore = true, Duration = 0)]
 		public IActionResult Index()
 		{
 			return View(new IndexViewModel());
@@ -35,10 +36,10 @@ namespace Topics.Controllers
 		}
 
 		[IgnoreAntiforgeryToken]
-		[ResponseCache(VaryByHeader = "User-Agent", Duration = 300, NoStore = false, Location = ResponseCacheLocation.Any)]
-		public async Task<IActionResult> SignIn(string user, string pwd)
+		[ResponseCache(NoStore = true, Duration = 0)]
+		public async Task<IActionResult> SignIn(string user, string pwd, bool? signOut)
 		{
-			if (user == null) return View();
+			if (user == null) return View(new SignInViewModel { SignOut = signOut.HasValue ? signOut.Value : false });
 			Dictionary<string, string> data = (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pwd)) ? new Dictionary<string, string>
 			{
 				{"result", "invalid"}
@@ -48,10 +49,10 @@ namespace Topics.Controllers
 			{
 				case "success":
 					return View("Index", new IndexViewModel { LoggedIn = true, Username = user, Token = data["token"] });
-				case "invalid": return View(new SignInViewModel("Invalid login"));
+				case "invalid": return View("SignIn", new SignInViewModel("Invalid login"));
 				case null:
 				case "":
-				default: return View(new SignInViewModel());
+				default: return View(new SignInViewModel() );
 			}
 		}
 		public async Task<IActionResult> CreateAccount(string user, string pwd, string pwd_verify)
@@ -90,8 +91,8 @@ namespace Topics.Controllers
 				else
 					return RedirectToAction("Profile", new {passwordError = "Authentication error"});
 			else
-				return RedirectToAction("Profile", new {passwordError = "None of the fields can be empty"});
-			return RedirectToAction("Profile", new {passwordSuccess = "Password changed successfully."});
+				return RedirectToAction("Profile", new { passwordError = "None of the fields can be empty" });
+			return RedirectToAction("Profile", new { passwordSuccess = "Password changed successfully." });
 		}
 		public async Task<IActionResult> Profile(string user, string token, string passwordError, string passwordSuccess)
 		{
@@ -104,6 +105,7 @@ namespace Topics.Controllers
 						PasswordChangeError = passwordError,
 						PasswordChangeSuccess = passwordSuccess
 					});
+				else return Redirect("/Home/SignIn?signOut=true");
 			return View(new ProfileViewModel
 			{
 				Username = "",

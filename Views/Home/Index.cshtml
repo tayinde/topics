@@ -7,7 +7,7 @@
     <h1 class="display-4">Topics</h1>
     <p>Engage in discourse about current topics.</p>
 </div>
-@if (Model.LoggedIn)
+@if (Model.LoggedIn && ViewData.ModelState.IsValid)
 {
     <script>
         localStorage.setItem("user", "@Model.Username");

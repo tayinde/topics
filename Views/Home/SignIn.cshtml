@@ -7,22 +7,26 @@
     <div class="row h-100">
         <div class="col-sm-12 my-auto">
             <div class="card mx-auto w-25 account-form">
-                <h4 class="card-title margin-top-small">Sign in</h4>
-                <div class="bg-light card-body">
+                <span class="bg-silver card-title rounded-top text-dark padding-md h5">Sign in</span>
+                <div class="bg-white card-body">
                     <br>
-                    <form class="md-form" method="POST" asp-antiforgery="false" asp-controller="Home" asp-action="SignIn">
+                    <form class="md-form" method="POST" asp-antiforgery=false asp-controller="Home" asp-action="SignIn">
                         <input class="small-text form-control bottom-line-input" type="text" name="user" placeholder="Username" /><br>
                         <input class="small-text form-control bottom-line-input" type="password" name="pwd" placeholder="Password" /><br>
                         <button class="btn btn-primary">Sign in</button>
                     </form>
-                    @try
+                    @if (!string.IsNullOrEmpty(Model.Error))
                     {
-                        if (Model.Error != null)
-                        {
-                            <br>
-                            <p class="text-danger small-text">@Model.Error</p>
-                        }
-                    } catch {}
+                        <br>
+                        <p class="text-danger small-text">@Model.Error</p>
+                    }
+                    @if (Model.SignOut)
+                    {
+                        <script>
+                            localStorage.clear();
+                            
+                        </script>
+                    }
                 </div>
                 <div class="card-body">
                     <small>Don't have an account? Register <a asp-action="CreateAccount">here</a></small>

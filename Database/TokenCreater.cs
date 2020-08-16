@@ -11,11 +11,12 @@ namespace Topics.Database
 		{
 			string token = "";
 			Random random = new Random();
-			user += user.Reverse();
+			user += string.Join("", user.Reverse());
 			for (int i = 0; i < (user.Length <= 20 ? user.Length : 20); i++)
 			{
 				int num = random.Next(0, 25);
-				token += (user[random.Next(0, user.Length - 1)]).ToString() + (char) ('a' + num);
+				int index = random.Next(0, user.Length - 1);
+				token += user.ElementAt(index) + ((char) ((num > 12 ? 'A' : 'a') + num)).ToString() + (num > 12 ? random.Next(100) as dynamic : "");
 			}
 			return token;
 		}
@@ -27,9 +28,9 @@ namespace Topics.Database
 			for (int i = 0; i < (user.Length <= 20 ? user.Length : 20); i++)
 			{
 				int num = random.Next(0, 25);
-				token += user[random.Next(0, user.Length - 1)] + (char) ('a' + num);
+				token += user[random.Next(0, user.Length - 1)] + ((char) ('a' + num)).ToString();
 			}
-			return HttpUtility.HtmlEncode(token);
+			return token;
 		}
 	}
 }

@@ -9,49 +9,45 @@
 	<input name="token" class="token" hidden>
 	<button hidden></button>
 </form>
-<div class="text-center">
-	<div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
-	<h2 id="username">@Model.Username</h2>
-	<br>
-	<form id="profile-change" enctype="multipart/form-data" class="md-form w-100" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
-		<div class="form-row">
-			<div class="col-12">
-				<div class="input-group mb-3">
-					<div class="custom-file">
-						<input name="file" type="file" class="custom-file-input" id="input-file">
-						<label class="custom-file-label" for="input-file">Choose file</label>
-					</div>
-				</div>
-				<button class="btn btn-primary">Set Profile Picture</button>
-				<input name="user" class="username" hidden>
-				<input name="token" class="token" hidden>
-			</div>
+<div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
+<h2 id="username">@Model.Username</h2>
+<br>
+<form asp-controller="Topics" asp-action="CreateTopic">
+	<button type="submit" type="button" class="btn btn-primary">Create a topic</button>
+</form>
+<br>
+<br>
+<form id="profile-change" enctype="multipart/form-data" class="fit md-form w-50" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
+	<div class="input-group mb-3">
+		<div class="custom-file">
+			<input name="file" type="file" class="custom-file-input" id="input-file">
+			<label class="custom-file-label" for="input-file">Choose file</label>
 		</div>
-	</form>
-	<hr>
-	<h4 class="mx-auto">Change your password</h4>
-	<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
-		<input type="hidden" name="user" class="username" hidden>
-		<input type="hidden" name="token" class="token" hidden>
-		<input class="bottom-line-input" autocomplete="off" type="password" name="old" placeholder="Old password"><br>
-		<input class="bottom-line-input" autocomplete="off" type="password" name="newPassword" placeholder="New password"><br>
-		<input class="bottom-line-input" autocomplete="off" type="password" name="newAgain" placeholder="Retype new password"><br><br>
-		<button class="btn btn-primary">Change password</button>
-	</form>
-	<br>
-	<p class="error-message">@Model.PasswordChangeError</p>
-	<p class="text-success">@Model.PasswordChangeSuccess</p>
-	<br>
-	<hr>
-	<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
+	</div>
+	<button class="btn btn-primary">Set Profile Picture</button>
+	<input name="user" class="username" hidden>
+	<input name="token" class="token" hidden>
+</form>
+<br>
+<div class="card w-25 account-form">
+	<span class="bg-silver card-title rounded-top text-dark padding-md h5">Change your password</span>
+	<div class="card-body">
+		<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
+			<input type="hidden" name="user" class="username" hidden>
+			<input type="hidden" name="token" class="token" hidden>
+			<input class="bottom-line-input" autocomplete="off" type="password" name="old" placeholder="Old password"><br>
+			<input class="bottom-line-input" autocomplete="off" type="password" name="newPassword" placeholder="New password"><br>
+			<input class="bottom-line-input" autocomplete="off" type="password" name="newAgain" placeholder="Retype new password"><br><br>
+			<button class="btn btn-primary">Change password</button>
+			<br>
+		</form>
+	</div>
 </div>
+<br>
+<p class="error-message">@Model.PasswordChangeError</p>
+<p class="text-success">@Model.PasswordChangeSuccess</p>
+<hr>
+<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-@if (string.IsNullOrEmpty(Model.Username))
-{
-	<script>var submit = true;</script>
-}
-else
-{
-	<script>var submit = false;</script>
-}
+<script>var submit = @string.IsNullOrEmpty(Model.Username).ToString().ToLower();</script>
 <script src="/js/profile.js"></script>

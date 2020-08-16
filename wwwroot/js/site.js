@@ -1,7 +1,12 @@
 ﻿//import 'jquery'
 var username = localStorage.getItem('user') || null;
 var token = localStorage.getItem('token') || null;
-token = encodeURIComponent(token);
+
+setInterval(() =>
+{
+	user = localStorage.getItem('user') || null;
+	token = localStorage.getItem('token') || null;
+}, 200);
 
 $(() =>
 {
