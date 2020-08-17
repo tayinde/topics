@@ -25,17 +25,20 @@
 	<br>
 	foreach (BsonDocument document in @Model.Comments)
 	{
-		<div id="@document["author"].AsString" class="card">
-			<div class="bg-silver card-title rounded-top text-dark padding-md">
-				<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
-				<p>@document["author"].AsString</p>
-				<small>@document["date"].AsString</small>
+		if (!(await GetProperty(document["author"].AsString, "user") == ""))
+		{
+			<div id="@document["author"].AsString" class="card">
+				<div class="bg-silver card-title rounded-top text-dark padding-md">
+					<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
+					<p>@document["author"].AsString</p>
+					<small>@document["date"].AsString</small>
+				</div>
+				<div class="card-body">
+					@document["content"].AsString
+				</div>
 			</div>
-			<div class="card-body">
-				@document["content"].AsString
-			</div>
-		</div>
-		<br>
+			<br>
+		}
 	}
 	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
 		<input name="comment" placeholder="Type a comment" class="form-control">
