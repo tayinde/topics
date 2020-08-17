@@ -15,7 +15,7 @@ namespace Topics.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Upload(IFormFile file, string user, string token)
 		{
-			if (file != null && (file.FileName.EndsWith(".png") || file.FileName.EndsWith(".jpg") || file.FileName.EndsWith(".webp")))
+			if (file != null && (file.FileName.EndsWith(".png") || file.FileName.EndsWith(".jpg") || file.FileName.EndsWith(".webp")) || file.FileName.EndsWith(".jpeg"))
 				if (await Account.Exists(user, token))
 				{
 					string fileName = $"/images/{file.Name.CreateImageName()}.png";

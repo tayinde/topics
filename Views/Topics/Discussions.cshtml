@@ -1,3 +1,20 @@
+@using static Topics.Database.Topics;
+@model DiscussionViewModel
 @{
 	ViewData["Title"] = "Discussions";
+}
+
+@foreach (var topic in @Model.topics)
+{
+	<div class="card w-50 small-screen-100">
+		<div class="bg-silver card-title rounded-top text-dark padding-md">
+			<div class="circular-landscape-sm" style="background-image: url(@topic.Value["profile_picture"])"></div>
+			<a asp-action="ViewTopic" asp-route-topicId="@topic.Key">@topic.Value["title"]</a><br>
+		</div>
+		<div class="card-body">
+			<small>Date: @topic.Value["date"]</small>
+			<p class="text-secondary small-text">@topic.Value["content"].ShortenContent()</p>
+		</div>
+	</div>
+	<br>
 }

@@ -3,14 +3,21 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Topics</h1>
-    <p>Engage in discourse about current topics.</p>
+<div class="text-center container">
+    <div class="row h-100">
+        <div class="col-sm-12 my-auto">
+            <h1>Topics</h1>
+            <p>In this site you can engage in discourse about any current topics. You can create discussions about anything appropriate here. See some discussions here.</p>
+        </div>
+    </div>
+    <br>
+    <button onclick="window.location.href='/Topics/Discussions'" class="btn btn-primary">See Discussions</button>
+    <button onclick="window.location.href='/Home/Privacy'" class="btn btn-primary">Privacy</button>
 </div>
 @if (Model.LoggedIn && ViewData.ModelState.IsValid)
 {
     <script>
-        localStorage.setItem("user", "@Model.Username");
+        localStorage.setItem("user", decodeURIComponent("@Model.Username"));
         localStorage.setItem("token", "@Model.Token");
     </script>
 }

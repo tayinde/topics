@@ -52,7 +52,7 @@ namespace Topics.Controllers
 				case "invalid": return View("SignIn", new SignInViewModel("Invalid login"));
 				case null:
 				case "":
-				default: return View(new SignInViewModel() );
+				default: return View(new SignInViewModel());
 			}
 		}
 		public async Task<IActionResult> CreateAccount(string user, string pwd, string pwd_verify)
@@ -85,7 +85,7 @@ namespace Topics.Controllers
 							else
 								return RedirectToAction("Profile", new { passwordError = newPassword.ValidatePassword() });
 						else
-							return RedirectToAction("Profile", new { passwordError = "Passwords do not match" });
+							return RedirectToAction("Profile", new { passwordError = "Passwords d. not match" });
 					else
 						return RedirectToAction("Profile", new { passwordError = "Incorrect password" });
 				else
@@ -94,6 +94,7 @@ namespace Topics.Controllers
 				return RedirectToAction("Profile", new { passwordError = "None of the fields can be empty" });
 			return RedirectToAction("Profile", new { passwordSuccess = "Password changed successfully." });
 		}
+
 		public async Task<IActionResult> Profile(string user, string token, string passwordError, string passwordSuccess)
 		{
 			if (user != null && token != null)

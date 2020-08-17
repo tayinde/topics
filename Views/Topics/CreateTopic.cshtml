@@ -1,3 +1,24 @@
+@model CreateTopicViewModel
 @{
 	ViewData["Title"] = "Create a topic";
 }
+<h1>@ViewData["Title"]</h1>
+@if (!string.IsNullOrEmpty(Model.Error))
+{
+	<small class="text-danger">@Model.Error</small>
+}
+<hr>
+<form asp-action="CreateTopic">
+	<!-- authentication -->
+	<input type="hidden" name="user" class="username" hidden>
+	<input type="hidden" name="token" class="token" hidden>
+	<!---->
+	<input name="title" placeholder="Type a title here" class="form-control"><br>
+	<input name="keywords" placeholder="Keywords - separate by commas (ex. covid,school,zoom)" class="form-control">
+	<br>
+	<textarea name="content" class="form-control"></textarea>
+	<br>
+	<button class="btn btn-primary">Create</button>
+</form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/create-topic.js"></script>

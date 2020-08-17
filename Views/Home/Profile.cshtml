@@ -12,22 +12,22 @@
 <div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
 <h2 id="username">@Model.Username</h2>
 <br>
-<form asp-controller="Topics" asp-action="CreateTopic">
-	<button type="submit" type="button" class="btn btn-primary">Create a topic</button>
-</form>
-<br>
-<br>
 <form id="profile-change" enctype="multipart/form-data" class="fit md-form w-50" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
 	<div class="input-group mb-3">
 		<div class="custom-file">
 			<input name="file" type="file" class="custom-file-input" id="input-file">
-			<label class="custom-file-label" for="input-file">Choose file</label>
+			<label class="custom-file-label" for="input-file">Choose an image file</label>
 		</div>
 	</div>
 	<button class="btn btn-primary">Set Profile Picture</button>
 	<input name="user" class="username" hidden>
 	<input name="token" class="token" hidden>
 </form>
+<hr>
+<form asp-controller="Topics" asp-action="CreateTopic">
+	<button type="submit" type="button" class="btn btn-primary">Create a topic</button>
+</form>
+<br>
 <br>
 <div class="card w-25 account-form">
 	<span class="bg-silver card-title rounded-top text-dark padding-md h5">Change your password</span>
@@ -49,5 +49,7 @@
 <hr>
 <button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script>var submit = @string.IsNullOrEmpty(Model.Username).ToString().ToLower();</script>
+<script>
+	var submit = Boolean(@string.IsNullOrEmpty(Model.Username).ToString().ToLower());
+</script>
 <script src="/js/profile.js"></script>

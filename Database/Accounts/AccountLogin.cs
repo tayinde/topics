@@ -29,7 +29,7 @@ namespace Topics.Database
 			if (result != null)
 				return new Dictionary<string, string>()
 				{
-					{ "user", result["user"].AsString },
+					{ "user",  result["user"].AsString },
 					{ "token", result["token"].AsString  },
 					{ "result", "success" }
 				};

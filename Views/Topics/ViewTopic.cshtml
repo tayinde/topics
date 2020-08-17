@@ -1,0 +1,50 @@
+@using MongoDB.Bson;
+@using static Topics.Database.Account;
+@model ViewTopicViewModel
+@{
+	try { ViewData["Title"] = Model.TopicData["title"]; }
+	catch {}
+}
+
+@if (Model.TopicData["result"] == "error")
+{
+	<script>window.location.href = '/Home/SignIn';</script>
+} else
+{
+	<div class="card">
+		<div class="bg-silver card-title rounded-top text-dark padding-md">
+			<div class="circular-landscape-sm" style="background-image: url(@Model.TopicData["profile_picture"])"></div>
+			<p>@Model.TopicData["author"]</p>
+			@Model.TopicData["title"]<br>
+			<small>@Model.TopicData["date"]</small>
+		</div>
+		<div class="card-body">
+			@Model.TopicData["content"]
+		</div>
+	</div>
+	<br>
+	foreach (BsonDocument document in @Model.Comments)
+	{
+		<div id="@document["author"].AsString" class="card">
+			<div class="bg-silver card-title rounded-top text-dark padding-md">
+				<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
+				<p>@document["author"].AsString</p>
+				<small>@document["date"].AsString</small>
+			</div>
+			<div class="card-body">
+				@document["content"].AsString
+			</div>
+		</div>
+		<br>
+	}
+	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
+		<input name="comment" placeholder="Type a comment" class="form-control">
+		<input name="user" class="username" hidden>
+		<input name="token" class="token" hidden>
+		<input name="topicId" value="@Model.TopicData["id"]" hidden>
+		<br>
+		<button class="btn btn-primary">Comment</button>
+	</form>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/js/view-topic.js"></script>
+}

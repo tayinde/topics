@@ -12,7 +12,7 @@ setInterval(() =>
 	{
 		window.location.href = '/';
 	}
-	if (submit || null == true) $('#verify').submit();
+	if (submit || null == "true") $('#verify').submit();
 }, 200);
 
 $('#input-file').on('change', () =>
