@@ -18,7 +18,7 @@ namespace Topics.Controllers
 			if (file != null && (file.FileName.EndsWith(".png") || file.FileName.EndsWith(".jpg") || file.FileName.EndsWith(".webp")) || file.FileName.EndsWith(".jpeg"))
 				if (await Account.Exists(user, token))
 				{
-					string fileName = $"/images/{file.Name.CreateImageName()}.png";
+					string fileName = $"/images/{file.Name.CreateToken()}.png";
 					FileStream stream = System.IO.File.Create($"./wwwroot{fileName}");
 					await file.CopyToAsync(stream);
 					stream.Close();

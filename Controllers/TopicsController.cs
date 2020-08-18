@@ -18,8 +18,9 @@ namespace Topics.Controllers
 		{
 			if (!string.IsNullOrEmpty(title) && !string.IsNullOrEmpty(keywords) && !string.IsNullOrEmpty(content))
 			{
-				await Database.Topics.CreateTopic(user, token, title, keywords, content);
-				return Redirect("Discussions");
+				string topicId = user.CreateToken();
+				await Database.Topics.CreateTopic(user, token, title, keywords, content, topicId);
+				return Redirect($"/Topics/ViewTopic?topicId={topicId}#{user}");
 			}
 			else return View(new CreateTopicViewModel());
 		}
@@ -28,7 +29,6 @@ namespace Topics.Controllers
 		{
 			return View(new ViewTopicViewModel { TopicData = await Database.Topics.GetTopic(topicId), Comments = await Database.Topics.GetAllComments(topicId) });
 		}
-
 		public async Task<IActionResult> Comment(string user, string token, string topicId, string comment)
 		{
 			var date = DateTime.Now.ToString();

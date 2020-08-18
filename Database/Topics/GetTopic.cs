@@ -16,6 +16,7 @@ namespace Topics.Database
 			{
 				BsonDocument? collection = (await database.GetCollection<BsonDocument>(collectionName).FindAsync(filter)).FirstOrDefault();
 				if (collection != null)
+				{
 					return new Dictionary<string, string>
 					{
 						{ "result", "success" },
@@ -27,6 +28,7 @@ namespace Topics.Database
 						{ "content", collection["content"].AsString },
 						{ "profile_picture", await Account.GetProperty(collection["author"].AsString, "profile_picture") }
 					};
+				}
 			}
 			return new Dictionary<string, string> { { "result", "error" } };
 		}

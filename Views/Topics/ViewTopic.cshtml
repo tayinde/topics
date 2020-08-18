@@ -1,4 +1,5 @@
 @using MongoDB.Bson;
+@using System.Linq;
 @using static Topics.Database.Account;
 @model ViewTopicViewModel
 @{
@@ -11,37 +12,36 @@
 	<script>window.location.href = '/Home/SignIn';</script>
 } else
 {
-	<div class="card">
+	<div class="card post">
 		<div class="bg-silver card-title rounded-top text-dark padding-md">
 			<div class="circular-landscape-sm" style="background-image: url(@Model.TopicData["profile_picture"])"></div>
 			<p>@Model.TopicData["author"]</p>
-			@Model.TopicData["title"]<br>
+			<b>@Model.TopicData["title"]</b><br>
 			<small>@Model.TopicData["date"]</small>
 		</div>
-		<div class="card-body">
+		<p id="0" class="post-content card-body">
 			@Model.TopicData["content"]
-		</div>
+		</p>
 	</div>
 	<br>
+	int i = 0;
 	foreach (BsonDocument document in @Model.Comments)
 	{
 		if (!(await GetProperty(document["author"].AsString, "user") == ""))
 		{
-			<div id="@document["author"].AsString" class="card">
-				<div class="bg-silver card-title rounded-top text-dark padding-md">
+			i++;
+			<div id="@document["author"].AsString" class="card post">
+				<div class="card-body">
 					<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
 					<p>@document["author"].AsString</p>
-					<small>@document["date"].AsString</small>
-				</div>
-				<div class="card-body">
-					@document["content"].AsString
+					<p id="@i" class="post-content">@document["content"].AsString</p>
 				</div>
 			</div>
 			<br>
 		}
 	}
 	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
-		<input name="comment" placeholder="Type a comment" class="form-control">
+		<textarea name="comment" placeholder="Type a comment" class="form-control"></textarea>
 		<input name="user" class="username" hidden>
 		<input name="token" class="token" hidden>
 		<input name="topicId" value="@Model.TopicData["id"]" hidden>

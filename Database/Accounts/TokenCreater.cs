@@ -28,7 +28,7 @@ namespace Topics.Database
 			for (int i = 0; i < (user.Length <= 20 ? user.Length : 20); i++)
 			{
 				int num = random.Next(0, 25);
-				token += user.ElementAt(random.Next(0, user.Length - 1)) + ((char) ('a' + num)).ToString();
+				token += user.ElementAt(random.Next(0, user.Length - 1)) + ((int) 'a' + num).ToString();
 			}
 			return token;
 		}

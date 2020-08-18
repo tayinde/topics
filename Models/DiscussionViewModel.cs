@@ -5,6 +5,6 @@ namespace Topics.Models
 {
 	public class DiscussionViewModel
 	{
-		public Dictionary<string, Dictionary<string, string>> topics { get; set; }
+		public List<Dictionary<string, string>> topics { get; set; }
 	}
 }

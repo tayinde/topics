@@ -57,6 +57,14 @@ a {
   width: auto;
 }
 
+.block-img {
+  display: block;
+}
+
+img {
+  max-height: 500px !important;
+  max-width: 500px !important;
+}
 html {
   font-size: 14px;
 }
@@ -161,8 +169,8 @@ body {
 .padding-y-xl { padding: 0 3em; }
 
 .padding-top-xs { padding-top: .25em; }
-.padding-top-sm { padding-top: .5em; }
-.padding-top-md { padding-top: 1em; }
+.padding-top-sm { padding-top: .5em !important; }
+.padding-top-md { padding-top: 1em !important; }
 .padding-top-lg { padding-top: 1.5em; }
 .padding-top-xl { padding-top: 3em; }
 
