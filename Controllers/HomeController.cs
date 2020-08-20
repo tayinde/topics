@@ -85,7 +85,7 @@ namespace Topics.Controllers
 							else
 								return RedirectToAction("Profile", new { passwordError = newPassword.ValidatePassword() });
 						else
-							return RedirectToAction("Profile", new { passwordError = "Passwords d. not match" });
+							return RedirectToAction("Profile", new { passwordError = "Passwords do not match" });
 					else
 						return RedirectToAction("Profile", new { passwordError = "Incorrect password" });
 				else
