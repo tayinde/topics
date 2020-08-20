@@ -2,6 +2,7 @@ using System.Web;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +24,9 @@ namespace Topics.Controllers
 					await file.CopyToAsync(stream);
 					stream.Close();
 					await Account.UpdateProperty(user, "profile_picture", fileName);
+					Process.Start("git", $"add ./wwwroot{fileName}");
+					Process.Start("git", "commit -m 'file uploaded'");
+					Process.Start("git", "push");
 					Console.WriteLine("File uploaded.");
 				}
 			return RedirectToAction("Profile", "Home");
