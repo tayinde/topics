@@ -27,7 +27,7 @@ $('.post-content').each((i, el) =>
 		if (e.startsWith("[img]" || "\n[img]") && e.endsWith("[/img]"))
 		{
 			e = e
-				.replace("[img]", "<img class='padding-top-md block-img' src='")
+				.replace("[img]", "<img class='padding-top-md block-img post-img' src='")
 				.replace("[/img]", "") +
 				"'><br>"
 			words[i] = e;
