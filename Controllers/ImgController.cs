@@ -14,22 +14,30 @@ namespace Topics.Controllers
 	public class ImgController : Controller
 	{	
 		[HttpPost]
-		public async Task<IActionResult> Upload(IFormFile file, string user, string token)
+		public async Task<IActionResult> Upload(IFormFile file, string user, string token, string fileUpload, string url)
 		{
-			if (file != null && (file.FileName.EndsWith(".png") || file.FileName.EndsWith(".jpg") || file.FileName.EndsWith(".webp")) || file.FileName.EndsWith(".jpeg"))
-				if (await Account.Exists(user, token))
-				{
-					string fileName = $"/images/{file.Name.CreateToken()}.png";
-					FileStream stream = System.IO.File.Create($"./wwwroot{fileName}");
-					await file.CopyToAsync(stream);
-					stream.Close();
-					await Account.UpdateProperty(user, "profile_picture", fileName);
-					/*Process.Start("git", $"add wwwroot{fileName}");
-					Process.Start("git", "commit -m \"file uploaded\"");
-					Process.Start("git", "push");*/
-					Console.WriteLine("File uploaded.");
-				}
-			return RedirectToAction("Profile", "Home");
-		}
+			if (fileUpload == "true")
+			{
+				if (file != null && (file.FileName.EndsWith(".png") || file.FileName.EndsWith(".jpg") || file.FileName.EndsWith(".webp")) || file.FileName.EndsWith(".jpeg"))
+					if (await Account.Exists(user, token))
+					{
+						string fileName = $"/images/{file.Name.CreateToken()}.png";
+						FileStream stream = System.IO.File.Create($"./wwwroot{fileName}");
+						await file.CopyToAsync(stream);
+						stream.Close();
+						await Account.UpdateProperty(user, "profile_picture", fileName);
+						Console.WriteLine("File uploaded.");
+					}
+			} else
+			{
+				url = string.Join("", url.Split('?')[0]);
+				if (!string.IsNullOrEmpty(url) && (url.EndsWith(".png") || url.EndsWith(".jpg") || url.EndsWith(".webp")) || url.EndsWith(".jpeg"))
+					if (await Account.Exists(user, token))
+					{
+						await Account.UpdateProperty(user, "profile_picture", url);
+					}
+			}
+				return RedirectToAction("Profile", "Home");
+			}
 	}
 }

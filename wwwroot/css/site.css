@@ -186,11 +186,11 @@ body {
 .padding-bottom-lg { padding-bottom: 1.5em; }
 .padding-bottom-xl { padding-bottom: 3em; }
 
-.padding-left-xs { padding-left: .25em; }
-.padding-left-sm { padding-left: .5em; }
-.padding-left-md { padding-left: 1em; }
-.padding-left-lg { padding-left: 1.5em; }
-.padding-left-xl { padding-left: 3em; }
+.padding-left-xs { padding-left: .25em !important; }
+.padding-left-sm { padding-left: .5em !important; }
+.padding-left-md { padding-left: 1em !important; }
+.padding-left-lg { padding-left: 1.5em !important; }
+.padding-left-xl { padding-left: 3em !important; }
 
 .margin-xs { margin: .25em; }
 .margin-sm { margin: .5em; }
