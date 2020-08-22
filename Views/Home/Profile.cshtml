@@ -9,7 +9,7 @@
 	<input name="token" class="token" hidden>
 	<button hidden></button>
 </form>
-<div class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
+<div id="pfp" class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
 <h2 id="username">@Model.Username</h2>
 <br>
 <form id="profile-change" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
@@ -66,6 +66,7 @@
 <button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script>
+	localStorage.setItem("profile_picture", "@Model.ProfilePicture");
 	var submit = Boolean(@string.IsNullOrEmpty(Model.Username).ToString().ToLower());
 </script>
 <script src="/js/profile.js"></script>

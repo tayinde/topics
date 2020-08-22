@@ -142,8 +142,8 @@ body {
 .small-profile-picture {
   margin-right: 7px;
   border-radius: 25px;
-  width: 30px !important;
-  height: 30px !important;
+  width: 25px !important;
+  height: 25px !important;
 }
 .small-text {
   font-size: 14px !important;
