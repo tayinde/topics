@@ -48,7 +48,7 @@ namespace Topics.Controllers
 			switch (data["result"])
 			{
 				case "success":
-					return View("Index", new IndexViewModel { LoggedIn = true, Username = user, Token = data["token"] });
+					return View("Index", new IndexViewModel { LoggedIn = true, Username = user, Token = data["token"], ProfilePicture = await Account.GetProperty(user, "profile_picture") });
 				case "invalid": return View("SignIn", new SignInViewModel("Invalid login"));
 				case null:
 				case "":

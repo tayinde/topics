@@ -7,5 +7,6 @@ namespace Topics.Models
 		public bool LoggedIn = false;
 		public string Username;
 		public string Token;
+		public string ProfilePicture;
 	}
 }

@@ -139,6 +139,12 @@ body {
   padding: 10px;
 }
 
+.small-profile-picture {
+  margin-right: 7px;
+  border-radius: 25px;
+  width: 30px !important;
+  height: 30px !important;
+}
 .small-text {
   font-size: 14px !important;
 }
