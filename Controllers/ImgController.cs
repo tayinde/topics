@@ -30,7 +30,10 @@ namespace Topics.Controllers
 					}
 			} else
 			{
-				url = string.Join("", url.Split('?')[0]);
+				try
+				{
+					url = string.Join("", url.Split('?')[0]);
+				} catch {}
 				if (!string.IsNullOrEmpty(url) && (url.EndsWith(".png") || url.EndsWith(".jpg") || url.EndsWith(".webp")) || url.EndsWith(".jpeg"))
 					if (await Account.Exists(user, token))
 					{
