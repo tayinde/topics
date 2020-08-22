@@ -33,12 +33,12 @@ namespace Topics.Controllers
 				try
 				{
 					url = string.Join("", url.Split('?')[0]);
+					if (!string.IsNullOrEmpty(url) && (url.EndsWith(".png") || url.EndsWith(".jpg") || url.EndsWith(".webp")) || url.EndsWith(".jpeg"))
+						if (await Account.Exists(user, token))
+						{
+							await Account.UpdateProperty(user, "profile_picture", url);
+						}
 				} catch {}
-				if (!string.IsNullOrEmpty(url) && (url.EndsWith(".png") || url.EndsWith(".jpg") || url.EndsWith(".webp")) || url.EndsWith(".jpeg"))
-					if (await Account.Exists(user, token))
-					{
-						await Account.UpdateProperty(user, "profile_picture", url);
-					}
 			}
 				return RedirectToAction("Profile", "Home");
 			}
