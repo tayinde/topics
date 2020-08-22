@@ -8,11 +8,11 @@ setInterval(() =>
 	token = localStorage.getItem('token') || null
 	$('.username').attr('value', user);
 	$('.token').attr('value', token);
-	if (user == null || token == null)
+	if (localStorage.getItem('user') == null || localStorage.getItem('token') == null)
 	{
-		window.location.href = '/';
+		window.location.href = '/Home/Signin';
 	}
-	if (submit || null == "true") $('#verify').submit();
+	else if (submit || null == "true") $('#verify').submit();
 }, 200);
 
 $('#input-file').on('change', () =>
