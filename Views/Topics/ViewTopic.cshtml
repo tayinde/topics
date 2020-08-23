@@ -12,9 +12,9 @@
 	<script>window.location.href = '/Home/SignIn';</script>
 } else
 {
-	<div class="card post">
+	<div class="card post bg-light">
 		<div class="bg-silver card-title rounded-top text-dark padding-md">
-			<div class="circular-landscape-sm" style="background-image: url(@Model.TopicData["profile_picture"])"></div>
+			<div class="circular-landscape-md" style="background-image: url(@Model.TopicData["profile_picture"])"></div>
 			<p>@Model.TopicData["author"]</p>
 			<b>@Model.TopicData["title"]</b><br>
 			<small>@Model.TopicData["date"]</small>
@@ -24,22 +24,39 @@
 		</p>
 	</div>
 	<br>
-	int i = 0;
-	foreach (BsonDocument document in @Model.Comments)
-	{
-		if (!(await GetProperty(document["author"].AsString, "user") == ""))
+	<p>
+		@Model.Comments.LongCount() comments
+		@if (Model.Comments.LongCount() > 0)
 		{
-			i++;
-			<div id="@document["author"].AsString" class="card post">
-				<div class="card-body">
-					<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
-					<p>@document["author"].AsString</p>
-					<p id="@i" class="post-content">@document["content"].AsString</p>
-				</div>
-			</div>
-			<br>
+			<small class="text-secondary"> • Last comment on @Model.Comments[(int) Model.Comments.LongCount() - 1]["date"].AsString</small>
 		}
-	}
+	</p>
+	<br>
+	<div class="card post bg-light">
+		@{
+			int i = 0;
+			foreach (BsonDocument document in @Model.Comments)
+			{
+				if (!(await GetProperty(document["author"].AsString, "user") == ""))
+				{
+					i++;
+					<div id="@document["author"].AsString">
+						<div class="card-body">
+							<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
+							<p>@document["author"].AsString<small class="text-secondary"> • @document["date"].AsString</small></p>
+							<p id="@i" class="post-content">@document["content"].AsString</p>
+						</div>
+					</div>
+					if (i != Model.Comments.LongCount())
+					{
+						<hr>
+					}
+					<br>
+				}
+			}
+		}
+	</div>
+	<br>
 	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
 		<textarea name="comment" placeholder="Type a comment" class="form-control"></textarea>
 		<input name="user" class="username" hidden>
