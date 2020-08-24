@@ -31,7 +31,6 @@ namespace Topics.Database
 						{ "date", collection["date"].AsString },
 						{ "num_date", collection["num_date"].AsString },
 						{ "title", collection["title"].AsString },
-						{ "keywords", collection["keywords"].AsString },
 						{ "content", collection["content"].AsString },
 						{ "profile_picture", await Account.GetProperty(collection["author"].AsString, "profile_picture") }
 					});

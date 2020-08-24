@@ -14,12 +14,12 @@ namespace Topics.Controllers
 			return View(new DiscussionViewModel { topics = await Database.Topics.GetAllTopics() });
 		}
 
-		public async Task<IActionResult> CreateTopic(string user, string token, string title, string keywords, string content)
+		public async Task<IActionResult> CreateTopic(string user, string token, string title, string pwd, string content)
 		{
-			if (!string.IsNullOrEmpty(title) && !string.IsNullOrEmpty(keywords) && !string.IsNullOrEmpty(content))
+			if (!string.IsNullOrEmpty(title) && !string.IsNullOrEmpty(pwd) && !string.IsNullOrEmpty(content) && await Account.Exists(user, token) && await Account.GetProperty(user, "pwd") == pwd)
 			{
 				string topicId = user.CreateToken();
-				await Database.Topics.CreateTopic(user, token, title, keywords, content, topicId);
+				Database.Topics.CreateTopic(user, token, title, content, topicId);
 				return Redirect($"/Topics/ViewTopic?topicId={topicId}#{user}");
 			}
 			else return View(new CreateTopicViewModel());
@@ -32,7 +32,7 @@ namespace Topics.Controllers
 		public async Task<IActionResult> Comment(string user, string token, string topicId, string comment)
 		{
 			var date = DateTime.Now.ToString();
-			try { await Database.Topics.AddComment(user, token, topicId, comment, date); } catch {}
+			try { await Database.Topics.AddComment(user, token, topicId, comment, date); } catch { return Redirect("/Home/Signin"); }
 			return Redirect($"/Topics/ViewTopic?topicId={topicId}#{user}");
 		}
 	}

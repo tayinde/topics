@@ -28,7 +28,7 @@
 		@Model.Comments.LongCount() comments
 		@if (Model.Comments.LongCount() > 0)
 		{
-			<small class="text-secondary"> • Last comment on @Model.Comments[(int) Model.Comments.LongCount() - 1]["date"].AsString</small>
+			<small class="text-secondary"> • Last comment on @Model.Comments[Convert.ToInt32(Model.Comments.LongCount()) - 1]["date"].AsString</small>
 		}
 	</p>
 	<br>

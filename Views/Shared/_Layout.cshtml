@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 gradient-nav" style="max-height:50px">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 gradient-nav fixed-top">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Topics</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -34,7 +34,7 @@
              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <li id="profile" class="nav-item">
-                        <a class="no-wrap nav-link text-light" asp-controller="Home" asp-action="Profile"></a>
+                        <a class="no-wrap nav-link text-light" asp-controller="Home" asp-action="Profile" style="max-height:25pxwait"></a>
                     </li>
                     <li id="signin" class="nav-item">
                         <a class="no-wrap nav-link text-light min-width-100" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
@@ -48,14 +48,14 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3" style="padding-top: 90px;">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-light bg-dark">
-        <div class="container bg-dark">
-            &copy; 2020 - Topics - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-light">Privacy</a>
+    <footer class="border-top footer text-light bg-light">
+        <div class="container bg-light text-dark">
+            &copy; 2020 - Topics - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-dark">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
