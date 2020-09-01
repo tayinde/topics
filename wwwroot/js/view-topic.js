@@ -39,7 +39,8 @@ var formatting = {
 	"\\[i]": "<i>",
 	"\\[/i]": "</i>",
 	"\\[li]": "<li>",
-	"\\[/li]": "</li>"
+	"\\[/li]": "</li>",
+	"\\[br]": "<br>"
 }
 $('.post-content').each((i, el) =>
 {
