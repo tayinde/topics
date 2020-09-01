@@ -41,10 +41,11 @@ var formatting = {
 }
 $('.post-content').each((i, el) =>
 {
-	let words = $('#' + el.id).text().trim().split(/ |\n|\t|\r/);
+	let words = $('#' + el.id).text();
 	Object.keys(formatting).forEach(f => {
 		words.replace(f, formatting[f]);
 	});
+	words = words.trim().split(/ |\n|\t|\r/);
 	words.forEach((e, i) => {
 		if (e.startsWith("[img]" || "\n[img]") && e.endsWith("[/img]"))
 		{
