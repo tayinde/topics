@@ -43,7 +43,7 @@ $('.post-content').each((i, el) =>
 {
 	let words = $('#' + el.id).text();
 	Object.keys(formatting).forEach(f => {
-		words = words.replace(f, formatting[f]);
+		words = words.replace(new RegExp(f, 'g'), formatting[f]);
 	});
 	words = words.trim().split(/ |\n|\t|\r/);
 	words.forEach((e, i) => {
