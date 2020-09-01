@@ -19,10 +19,32 @@ $('#verify').on('submit', (e) =>
 	}
 })
 
-
+var formatting = {
+	"[b]": "<b>",
+	"[/b]": "</b>",
+	"[u]": "<u>",
+	"[/u]": "</u>",
+	"[h1]": "<h1>",
+	"[/h1]": "</h1>",
+	"[h2]": "<h2>",
+	"[/h2]": "</h2>",
+	"[h3]": "<h3>",
+	"[/h3]": "</h3>",
+	"[h4]": "<h4>",
+	"[/h4]": "</h4>",
+	"[h5]": "<h5>",
+	"[/h5]": "</h5>",
+	"[h6]": "<h6>",
+	"[/h6]": "</h6>",
+	"[i]": "<i>",
+	"[/i]": "</i>"
+}
 $('.post-content').each((i, el) =>
 {
-	let words = $('#' + el.id).text().replace('[b]',"<b>").replace('[/b]', "</b>").trim().split(/ |\n|\t|\r/);
+	let words = $('#' + el.id).text().trim().split(/ |\n|\t|\r/);
+	Object.keys(formatting).forEach(f => {
+		words.replace(f, formatting[f]);
+	});
 	words.forEach((e, i) => {
 		if (e.startsWith("[img]" || "\n[img]") && e.endsWith("[/img]"))
 		{
