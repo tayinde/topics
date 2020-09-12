@@ -1,4 +1,5 @@
 //import 'jquery';
+import { renderTags } from './tag_renderer.js';
 var user = localStorage.getItem('user') || null;
 var token = localStorage.getItem('token') || null;
 
@@ -19,45 +20,4 @@ $('#verify').on('submit', (e) =>
 	}
 })
 
-var formatting = {
-	"\\[b]": "<b>",
-	"\\[/b]": "</b>",
-	"\\[u]": "<u>",
-	"\\[/u]": "</u>",
-	"\\[h1]": "<h1>",
-	"\\[/h1]": "</h1>",
-	"\\[h2]": "<h2>",
-	"\\[/h2]": "</h2>",
-	"\\[h3]": "<h3>",
-	"\\[/h3]": "</h3>",
-	"\\[h4]": "<h4>",
-	"\\[/h4]": "</h4>",
-	"\\[h5]": "<h5>",
-	"\\[/h5]": "</h5>",
-	"\\[h6]": "<h6>",
-	"\\[/h6]": "</h6>",
-	"\\[i]": "<i>",
-	"\\[/i]": "</i>",
-	"\\[li]": "<li>",
-	"\\[/li]": "</li>",
-	"\\[br]": "<br>"
-}
-$('.post-content').each((i, el) =>
-{
-	let words = $('#' + el.id).text();
-	Object.keys(formatting).forEach(f => {
-		words = words.replace(new RegExp(`(${f})`, 'g'), formatting[f]);
-	});
-	words = words.trim().split(/ |\n|\t|\r/);
-	words.forEach((e, i) => {
-		if (e.startsWith("[img]" || "\n[img]") && e.endsWith("[/img]"))
-		{
-			e = e
-				.replace("[img]", "<img class='padding-top-md block-img post-img' src='")
-				.replace("[/img]", "") +
-				"'><br>"
-			words[i] = e;
-		}
-	});
-	$('#' + el.id).html(words.join(' '))
-});
+renderTags('.post-content');

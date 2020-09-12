@@ -15,7 +15,7 @@ $(() =>
 		$('#profile')
 			.css('display', 'block')
 			.contents()
-			.html(`<img class='small-profile-picture' src='${profilePicture}'></img>` + username)
+			.html(username + `<img class='small-profile-picture margin-left-md' src='${profilePicture}'></img>`)
 	}
 	else {
 		$('#signin').css('display', 'block')

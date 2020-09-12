@@ -10,7 +10,7 @@ namespace Topics.Database
 	{
 		public async static Task AddComment(string user, string token, string topicId, string content, string date)
 		{
-			
+			content = content.Replace("\n", "[br]");
 			MongoDatabaseBase database = new MongoClient(Secrets.DatabaseKey).GetDatabase("Topics") as MongoDatabaseBase;
 			if (await Account.Exists(user, token))
 			{

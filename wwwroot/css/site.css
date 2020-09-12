@@ -161,7 +161,6 @@ body {
 .bg-silver {
   background-color: rgb(231, 231, 231) !important;
 }
-
 .fit {
   display:table !important;
 }
@@ -171,6 +170,7 @@ body {
 .padding-md { padding: 1em !important; }
 .padding-lg { padding: 1.5em !important; }
 .padding-xl { padding: 3em !important; }
+
 
 .padding-x-xs { padding: .25em 0; }
 .padding-x-sm { padding: .5em 0; }
