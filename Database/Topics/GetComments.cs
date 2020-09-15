@@ -13,7 +13,7 @@ namespace Topics.Database
 
 			FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Empty;
 			var collection = (await database.GetCollection<BsonDocument>(topicId).FindAsync(filter)).ToList();
-
+			collection.Reverse();
 			return collection;
 		}
 	}
