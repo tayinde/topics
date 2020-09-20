@@ -9,7 +9,7 @@
 	<input name="token" class="token" hidden>
 	<button hidden></button>
 </form>
-<div id="pfp" class="circular-landscape" style="background-image: url(@Model.ProfilePicture)"></div>
+<div id="pfp" class="circular-landscape" style="background-image: url('@Model.ProfilePicture')"></div>
 <h2 id="username">@Model.Username</h2>
 <br>
 <form id="profile-change" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
