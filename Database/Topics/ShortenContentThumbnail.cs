@@ -4,7 +4,7 @@ namespace Topics.Database
 	{
 		public static string ShortenContent(this string content)
 		{
-			return content.Length > 70 ? string.Join("", content.ToCharArray()[0..70]) + "..." : content;
+			return content.Length > 70 ? string.Join("", content.ToCharArray()[0..80]) + "..." : content;
 		}
 	}
 }

@@ -129,7 +129,8 @@ body {
 }
 
 .gradient-nav {
-  background: linear-gradient(to right, #05a153, #00c3ff) !important;
+  background: linear-gradient(to left, #00ff88, #00d9ffd7) !important;
+  border-bottom-color: transparent !important;
 }
 
 .footer {
@@ -144,7 +145,7 @@ body {
   border-radius: 0 !important;
   border: none !important;
   background: none !important;
-  color: black !important;
+  color: silver !important;
   border-bottom: 1px solid silver !important;
   padding: 10px;
 }
@@ -160,6 +161,51 @@ body {
 }
 .bg-silver {
   background-color: rgb(231, 231, 231) !important;
+}
+
+.bg-black {
+  background: black !important;
+}
+
+.bg-black-2 {
+  background: rgb(15, 15, 15) !important;
+}
+
+.bg-black-2b {
+  background: rgb(17, 17, 17) !important;
+}
+
+.bg-black-3 {
+  background: rgb(19, 19, 19) !important;
+}
+.bg-black-4 {
+  background: rgb(22, 22, 22) !important;
+}
+
+.border-top-none {
+  border-top-color: transparent !important;
+}
+
+.border-top-blue {
+  border-top-color: rgb(0, 110, 255) !important;
+}
+.border-bottom-none {
+  border-bottom-color: transparent !important;
+}
+
+.border-bottom-blue {
+  border-bottom-color: rgb(0, 110, 255) !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.opacity-50 {
+  background: rgb(0, 0, 0, 0.4);
+}
+.rounded-borders {
+  border-radius: 10px !important;
 }
 .fit {
   display:table !important;

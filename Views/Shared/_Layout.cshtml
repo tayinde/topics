@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body class="bg-black-2">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 gradient-nav fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark box-shadow mb-3 gradient-nav fixed-top">
+            <div class="container text-dark">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Topics</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,13 @@
                     </ul>
                 </div>
             </div>
-             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <li id="profile" class="nav-item">
-                        <a class="no-wrap nav-link text-light" asp-controller="Home" asp-action="Profile" style="max-height:25pxwait"></a>
+                        <a class="no-wrap nav-link text-light opacity-50 rounded-borders" style="padding-left:10px" asp-controller="Home" asp-action="Profile"></a>
                     </li>
                     <li id="signin" class="nav-item">
-                        <a class="no-wrap nav-link text-light min-width-100" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
+                        <a class="no-wrap nav-link text-light opacity-50 rounded-borders min-width-100" asp-area="" asp-controller="Home" asp-action="SignIn">Sign in</a>
                     </li>
                     <form id="verifyNav" method="POST" asp-controller="Home" asp-action="Profile" asp-antiforgery=false hidden>
                         <input name="user" class="username" hidden>
@@ -47,15 +47,15 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3" style="padding-top: 90px;">
+    <div class="container" style="padding-top: 90px;">
+        <main role="main" class="pb-3 text-light">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-light bg-light">
-        <div class="container bg-light text-dark">
-            &copy; 2020 - Topics - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-dark">Privacy</a>
+    <footer class="border-top footer text-light bg-black-3 border-top-none">
+        <div class="container bg-black-3 text-secondary">
+            &copy; 2020 - Topics - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-primary">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

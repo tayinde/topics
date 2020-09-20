@@ -12,16 +12,18 @@
 	<script>window.location.href = '/Home/SignIn';</script>
 } else
 {
-	<div class="card post bg-light">
-		<div class="bg-silver card-title rounded-top text-dark padding-md">
+	<div class="card bg-black-3 post rounded-corners">
+		<div class="bg-black-3 card-title text-light padding-md rounded-corners">
 			<div class="circular-landscape-md" style="background-image: url(@Model.TopicData["profile_picture"])"></div>
 			<p>@Model.TopicData["author"]</p>
-			<b>@Model.TopicData["title"]</b><br>
-			<small>@Model.TopicData["date"]</small>
+			<b class="text-success">@Model.TopicData["title"]</b><br>
+			<small class="text-secondary">@Model.TopicData["date"]</small>
 		</div>
-		<p id="0" class="post-content card-body">
-			@Model.TopicData["content"]
-		</p>
+		<div class="card-body bg-black-2b rounded-corners">
+			<p id="0" class="post-content">
+				@Model.TopicData["content"]
+			</p>
+		</div>
 	</div>
 	<br>
 	<p>
@@ -32,33 +34,27 @@
 		}
 	</p>
 	<br>
-	<div class="card post bg-light">
-		@{
-			int i = 0;
-			foreach (BsonDocument document in @Model.Comments)
-			{
-				if (!(await GetProperty(document["author"].AsString, "user") == ""))
-				{
-					i++;
-					<div id="@document["author"].AsString">
-						<div class="card-body">
-							<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
-							<p>@document["author"].AsString<small class="text-secondary"> • @document["date"].AsString</small></p>
-							<p id="@i" class="post-content">@document["content"].AsString</p>
-						</div>
+	int i = 0;
+	foreach (BsonDocument document in @Model.Comments)
+	{
+		i++;
+		if (!(await GetProperty(document["author"].AsString, "user") == ""))
+		{
+			<div id="@document["author"].AsString" class="card post bg-black-3 rounded-borders">
+				<div>
+					<div class="card-body bg-black-3 rounded-corners ">
+						<div class="circular-landscape-sm" style="background-image: url(@await GetProperty(document["author"].AsString, "profile_picture"))"></div>
+						<p>@document["author"].AsString<small class="text-secondary"> • @document["date"].AsString</small></p>
+						<p id="@i" class="post-content">@document["content"].AsString</p>
 					</div>
-					if (i != Model.Comments.LongCount())
-					{
-						<hr>
-					}
-					<br>
-				}
-			}
+				</div>
+			</div>
+			<br>
 		}
-	</div>
+	}
 	<br>
 	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
-		<textarea name="comment" placeholder="Type a comment" class="form-control"></textarea>
+		<textarea name="comment" placeholder="Type a comment" class="form-control bg-black-3 border-none"></textarea>
 		<input name="user" class="username" hidden>
 		<input name="token" class="token" hidden>
 		<input name="topicId" value="@Model.TopicData["id"]" hidden>

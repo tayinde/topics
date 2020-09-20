@@ -19,21 +19,19 @@
 	<input name="token" class="token" hidden>
 	<input name="fileUpload" value="false" hidden>
 	<br>
-	<small>(png, webp, jpeg, and jpg links are accepted)</small>
 </form>
 <br>
 <h5 class="text-weight-bold">OR</h5>
 <form id="profile-change" enctype="multipart/form-data" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
 	<div class="row padding-left-md">
 		<div class="input-group col">
-				<input name="file" type="file" class="custom-file-input" id="input-file">
-				<label class="custom-file-label" for="input-file">Choose image file</label>
+				<input name="file" type="file" class="custom-file-input bg-black-2 border-none" id="input-file">
+				<label class="custom-file-label bg-black-3" for="input-file">Choose image file</label>
 		</div>
 		<div class="col">
 			<button class="btn btn-primary">Set Picture</button>
 		</div>
 	</div>
-	<small>(png, webp, jpeg, and jpg file endings are accepted)</small>
 	<input name="user" class="username" hidden>
 	<input name="token" class="token" hidden>
 	<input name="fileUpload" value="true" hidden>
@@ -45,9 +43,9 @@
 </form>
 <br>
 <br>
-<div class="card w-25 account-form">
-	<span class="bg-silver card-title rounded-top text-dark padding-md h5">Change your password</span>
-	<div class="card-body">
+<div class="card bg-black-2b w-25 account-form">
+	<span class="bg-black-3 card-title rounded-top text-light padding-md h4">Change your password</span>
+	<div class="card-body bg-black-2b">
 		<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
 			<input type="hidden" name="user" class="username" hidden>
 			<input type="hidden" name="token" class="token" hidden>
