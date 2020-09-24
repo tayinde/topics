@@ -56,7 +56,7 @@ a {
 }
 
 textarea {
-	color: #f0f0f0;
+  color: #f0f0f0 !important;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
