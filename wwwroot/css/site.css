@@ -1,8 +1,10 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Noto+Sans&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lato:wght@300;400&family=Open+Sans:wght@300;400&family=Quicksand:wght@500&display=swap');
 
 * {
-  font-family: 'Noto Sans' !important;
+  font-family: 'Assistant' !important;
 }
+
+.quicksand { font-family: 'Open sans' !important; }
 
 a.navbar-brand {
   white-space: normal;

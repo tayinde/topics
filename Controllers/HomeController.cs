@@ -94,7 +94,6 @@ namespace Topics.Controllers
 				return RedirectToAction("Profile", new { passwordError = "None of the fields can be empty" });
 			return RedirectToAction("Profile", new { passwordSuccess = "Password changed successfully." });
 		}
-
 		public async Task<IActionResult> Profile(string user, string token, string passwordError, string passwordSuccess)
 		{
 			if (user != null && token != null)
@@ -114,6 +113,11 @@ namespace Topics.Controllers
 				PasswordChangeError = passwordError,
 				PasswordChangeSuccess = passwordSuccess
 			});
+		}
+		public async Task<IActionResult> ViewProfile(string user)
+		{
+			try { return View(new ViewProfileViewModel { Username = user, ProfilePicture = await Account.GetProperty(user, "profile_picture")}); }
+			catch { return View(new ViewProfileViewModel { Username = user }); }
 		}
 
 		[IgnoreAntiforgeryToken]

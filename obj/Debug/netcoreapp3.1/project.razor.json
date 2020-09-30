@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/ta334/Codes/C#/Topics/Views/Home/ViewProfile.cshtml",
+      "TargetPath": "Views\\Home\\ViewProfile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/ta334/Codes/C#/Topics/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

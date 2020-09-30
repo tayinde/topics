@@ -12,10 +12,11 @@
 	<script>window.location.href = '/Home/SignIn';</script>
 } else
 {
+	var author = Model.TopicData["author"];
 	<div class="card bg-black-3 post rounded-corners">
 		<div class="bg-black-3 card-title text-light padding-md rounded-corners">
 			<div class="circular-landscape-md" style="background-image: url('@Model.TopicData["profile_picture"]')"></div>
-			<p>@Model.TopicData["author"]</p>
+			<p><a class='text-light' href='/Home/ViewProfile?user=@author'>@author</a></p>
 			<b class="text-success">@Model.TopicData["title"]</b><br>
 			<small class="text-secondary">@Model.TopicData["date"]</small>
 		</div>
@@ -40,11 +41,12 @@
 		i++;
 		if (!(await GetProperty(document["author"].AsString, "user") == ""))
 		{
+			var comment_author = document["author"].AsString;
 			<div id="@document["author"].AsString" class="card post bg-black-3 rounded-borders">
 				<div>
 					<div class="card-body bg-black-3 rounded-corners ">
 						<div class="circular-landscape-sm" style="background-image: url('@await GetProperty(document["author"].AsString, "profile_picture")')"></div>
-						<p>@document["author"].AsString<small class="text-secondary"> • @document["date"].AsString</small></p>
+						<p><a class='text-light' href='/Home/ViewProfile?user=@comment_author'>@comment_author</a><small class="text-secondary"> • @document["date"].AsString</small></p>
 						<p id="@i" class="post-content">@document["content"].AsString</p>
 					</div>
 				</div>

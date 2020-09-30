@@ -2,66 +2,71 @@
 @{
 	ViewData["Title"] = "Profile";
 }
-<form id="verify" method="POST" asp-action="Profile" asp-antiforgery=false hidden>
-	<input name="user" class="username" hidden>
-	<input name="passwordError" value="@Model.PasswordChangeError" hidden>
-	<input name="passwordSuccess" value="@Model.PasswordChangeSuccess" hidden>
-	<input name="token" class="token" hidden>
-	<button hidden></button>
-</form>
-<div id="pfp" class="circular-landscape" style="background-image: url('@Model.ProfilePicture')"></div>
-<h2 id="username">@Model.Username</h2>
-<br>
-<form id="profile-change" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
-	<input name="url" class="bottom-line-input" placeholder="Paste an image URL.">
-	<button class="btn btn-primary">Set Picture</button>
-	<input name="user" class="username" hidden>
-	<input name="token" class="token" hidden>
-	<input name="fileUpload" value="false" hidden>
+<div class='text-center'>
+	<form id="verify" method="POST" asp-action="Profile" asp-antiforgery=false hidden>
+		<input name="user" class="username" hidden>
+		<input name="passwordError" value="@Model.PasswordChangeError" hidden>
+		<input name="passwordSuccess" value="@Model.PasswordChangeSuccess" hidden>
+		<input name="token" class="token" hidden>
+		<button hidden></button>
+	</form>
+	<div id="pfp" class="circular-landscape" style="background-image: url('@Model.ProfilePicture')"></div>
+	<h1 id="username">@Model.Username</h1>
 	<br>
-</form>
-<br>
-<h5 class="text-weight-bold">OR</h5>
-<form id="profile-change" enctype="multipart/form-data" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
-	<div class="row padding-left-md">
-		<div class="input-group col">
-				<input name="file" type="file" class="custom-file-input bg-black-2 border-none" id="input-file">
-				<label class="custom-file-label bg-black-3" for="input-file">Choose image file</label>
-		</div>
-		<div class="col">
-			<button class="btn btn-primary">Set Picture</button>
-		</div>
-	</div>
-	<input name="user" class="username" hidden>
-	<input name="token" class="token" hidden>
-	<input name="fileUpload" value="true" hidden>
-</form>
-<br>
-<hr>
-<form asp-controller="Topics" asp-action="CreateTopic">
-	<button type="submit" type="button" class="btn btn-primary">Create a topic</button>
-</form>
-<br>
-<br>
-<div class="card bg-black-2b w-25 account-form">
-	<span class="bg-black-3 card-title rounded-top text-light padding-md h4">Change your password</span>
-	<div class="card-body bg-black-2b">
-		<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
-			<input type="hidden" name="user" class="username" hidden>
-			<input type="hidden" name="token" class="token" hidden>
-			<input class="bottom-line-input" autocomplete="off" type="password" name="old" placeholder="Old password"><br>
-			<input class="bottom-line-input" autocomplete="off" type="password" name="newPassword" placeholder="New password"><br>
-			<input class="bottom-line-input" autocomplete="off" type="password" name="newAgain" placeholder="Retype new password"><br><br>
-			<button class="btn btn-primary">Change password</button>
-			<br>
+	<form id="profile-change" class="mx-auto md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
+		<input name="url" class="bottom-line-input" placeholder="Paste an image URL.">
+		<button class="btn btn-primary">Set Picture</button>
+		<input name="user" class="username" hidden>
+		<input name="token" class="token" hidden>
+		<input name="fileUpload" value="false" hidden>
+		<br>
+	</form>
+	<!--
+		<h5 class="text-weight-bold">OR</h5>
+		<form id="profile-change" enctype="multipart/form-data" class="fit md-form" asp-controller="Img" asp-action="Upload" method="POST" asp-antiforgery=false>
+			<div class="row padding-left-md">
+				<div class="input-group col">
+						<input name="file" type="file" class="custom-file-input bg-black-2 border-none" id="input-file">
+						<label class="custom-file-label bg-black-3" for="input-file">Choose image file</label>
+				</div>
+				<div class="col">
+					<button class="btn btn-primary">Set Picture</button>
+				</div>
+			</div>
+			<input name="user" class="username" hidden>
+			<input name="token" class="token" hidden>
+			<input name="fileUpload" value="true" hidden>
 		</form>
+	-->
+	<br>
+	<hr>
+	<form asp-controller="Topics" asp-action="CreateTopic">
+		<button type="submit" type="button" class="btn btn-primary">Create a topic</button>
+	</form>
+	<br>
+	<br>
+	<div class='row'>
+		<div class="mx-auto col-12 card bg-black-2b w-25 account-form">
+			<span class="bg-black-3 card-title rounded-top text-light padding-md h4">Change your password</span>
+			<div class="card-body bg-black-2b">
+				<form method="POST" asp-action="ChangePassword" asp-antiforgery=false>
+					<input type="hidden" name="user" class="username" hidden>
+					<input type="hidden" name="token" class="token" hidden>
+					<input class="bottom-line-input" autocomplete="off" type="password" name="old" placeholder="Old password"><br>
+					<input class="bottom-line-input" autocomplete="off" type="password" name="newPassword" placeholder="New password"><br>
+					<input class="bottom-line-input" autocomplete="off" type="password" name="newAgain" placeholder="Retype new password"><br><br>
+					<button class="btn btn-primary">Change password</button>
+					<br>
+				</form>
+			</div>
+		</div>
 	</div>
+	<br>
+	<p class="error-message">@Model.PasswordChangeError</p>
+	<p class="text-success">@Model.PasswordChangeSuccess</p>
+	<hr>
+	<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 </div>
-<br>
-<p class="error-message">@Model.PasswordChangeError</p>
-<p class="text-success">@Model.PasswordChangeSuccess</p>
-<hr>
-<button onclick="javascript:logout()" type="button" class="btn btn-danger">Logout</button>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script>
 	localStorage.setItem("profile_picture", "@Model.ProfilePicture");

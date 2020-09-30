@@ -9,10 +9,11 @@
 {
 	if (!(await GetProperty(topic["author"], "user") == ""))
 	{
+		var author = topic["author"];
 		<div class="card w-50 small-screen-100 bg-black-2b">
 			<div class="bg-black-4 card-title rounded-top text-secondary padding-md">
 				<div class="circular-landscape-md" style="background-image: url('@topic["profile_picture"]')"></div>
-				<span class="text-light">@topic["author"]</span><br>
+				<span class="text-light"><a class='text-light' href='/Home/ViewProfile?user=@author'>@author</a></span><br>
 				<a asp-action="ViewTopic" asp-route-topicId="@topic["id"]">@topic["title"]</a>
 				@{
 					var comments = await GetAllComments(topic["id"]);

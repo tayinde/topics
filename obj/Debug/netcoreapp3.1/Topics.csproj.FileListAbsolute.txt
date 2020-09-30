@@ -50,3 +50,4 @@
 /home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Topics/Discussions.cshtml.g.cs
 /home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Topics/CreateTopic.cshtml.g.cs
 /home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Topics/ViewTopic.cshtml.g.cs
+/home/ta334/Codes/C#/Topics/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewProfile.cshtml.g.cs
