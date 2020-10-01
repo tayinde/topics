@@ -13,12 +13,30 @@
 	<input type="hidden" name="user" class="username" hidden>
 	<input type="hidden" name="token" class="token" hidden>
 	<!---->
-	<input name="title" placeholder="Type a title here" class="text-light form-control border-none bg-black-3"><br>
-	<textarea placeholder="Type the content of your topic here" name="content" class="text-light form-control border-none bg-black-3"></textarea>
+	<input id="title" name="title" placeholder="Type a title here" class="text-light form-control border-none bg-black-3"><br>
+	<textarea id="content" placeholder="Type the content of your topic here" name="content" class="text-light form-control border-none bg-black-3"></textarea>
 	<br>
 	<input name="pwd" type="password" placeholder="Type password" class="text-light fit padding-sm border-none bg-black-3">
 	<br>
 	<button class="btn btn-primary">Create</button>
 </form>
+<br>
+<button id="preview-button" class="btn btn-primary">Preview</button>
+<br><br>
+<div id="preview" style="display:none">
+	<div class="card bg-black-3 post rounded-corners">
+		<div class="bg-black-3 card-title text-light padding-md rounded-corners">
+			<div class="circular-landscape-md" id="pfp"></div>
+			<p id="preview-author">the author</p>
+			<b id="preview-title" class="text-success">the title</b><br>
+			<small id="date" class="text-secondary">Just now</small>
+		</div>
+		<div class="card-body bg-black-2b rounded-corners">
+			<p id="preview-content" class="post-content">
+				
+			</p>
+		</div>
+	</div>
+</div>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="/js/create-topic.js"></script>
+<script src="/js/create-topic.js" type="module"></script>
