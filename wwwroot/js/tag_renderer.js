@@ -29,6 +29,7 @@ export var renderTags = function (element)
 		{
 			let words = $('#' + el.id).text();
 			words = words.replace('[/link]', '[/link] ')
+			words = words.replace('[/img]', '[/link] ')
 			Object.keys(formatting).forEach(f => {
 				words = words.replace(new RegExp(`(${f})`, 'g'), formatting[f]);
 			});
