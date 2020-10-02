@@ -23,24 +23,52 @@ var formatting = {
 }
 export var renderTags = function (element)
 {
-	$(element).each((i, el) =>
+	if (element.startsWith('.'))
 	{
-		let words = $('#' + el.id).text();
+		$(element).each((i, el) =>
+		{
+			let words = $('#' + el.id).text().replace(/\n/g, '<br>');
+			words = words.replace('[/link]', '[/link] ')
+			Object.keys(formatting).forEach(f => {
+				words = words.replace(new RegExp(`(${f})`, 'g'), formatting[f]);
+			});
+			words = words.trim().split(' ');
+			words.forEach((e, i) => {
+				if (e.includes("[img]") && e.includes("[/img]"))
+				{
+					e = e
+						.replace("[img]", "<img class='padding-top-md block-img post-img' src='")
+						.replace("[/img]", "") +
+						"'><br>"
+					words[i] = e;
+				} else if (e.includes("[link]") && e.includes("[/link]"))
+				{
+					console.log(e);
+					e = e
+						.replace("[link]", "<a href='")
+						.replace("[/link]", "'>")
+					e = e + `${e.substr(e.indexOf("<a href='") + 9, e.indexOf("'", e.indexOf("'") + 1) - 9)}</a>`
+					console.log(e);
+					words[i] = e;
+				}
+			});
+			$('#' + el.id).html(words.join(' '))
+		});
+	} else {
+		let words = $(element).text().replace(/\n/g, '<br>');
 		words = words.replace('[/link]', '[/link] ')
 		Object.keys(formatting).forEach(f => {
 			words = words.replace(new RegExp(`(${f})`, 'g'), formatting[f]);
 		});
-		words = words.trim().split(/ |\n|\t|\r/);
+		words = words.trim().split(' ');
 		words.forEach((e, i) => {
-			if (e.includes("[img]") && e.includes("[/img]"))
-			{
+			if (e.includes("[img]") && e.includes("[/img]")) {
 				e = e
 					.replace("[img]", "<img class='padding-top-md block-img post-img' src='")
 					.replace("[/img]", "") +
 					"'><br>"
 				words[i] = e;
-			} else if (e.includes("[link]") && e.includes("[/link]"))
-			{
+			} else if (e.includes("[link]") && e.includes("[/link]")) {
 				console.log(e);
 				e = e
 					.replace("[link]", "<a href='")
@@ -49,7 +77,7 @@ export var renderTags = function (element)
 				console.log(e);
 				words[i] = e;
 			}
+			$(element).html(words.join(' '))
 		});
-		$('#' + el.id).html(words.join(' '))
-	});
+	}
 }

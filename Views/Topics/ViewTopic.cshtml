@@ -56,12 +56,23 @@
 	}
 	<br>
 	<form id="verify" method="POST" asp-action="Comment" asp-antiforgery=false class="md-form">
-		<textarea name="comment" placeholder="Type a comment" class="form-control bg-black-3 border-none"></textarea>
+		<textarea id="content" name="comment" placeholder="Type a comment" class="form-control bg-black-3 border-none"></textarea>
 		<input name="user" class="username" hidden>
 		<input name="token" class="token" hidden>
 		<input name="topicId" value="@Model.TopicData["id"]" hidden>
 		<br>
 		<button class="btn btn-primary">Comment</button>
+		<button type="button" id="preview-button" class="btn btn-primary">Preview</button>
+		<br><br>
+		<div style="display:none" id="preview-area" class="card post bg-black-3 rounded-borders">
+			<div>
+				<div class="card-body bg-black-3 rounded-corners ">
+					<div id="pfp" class="circular-landscape-sm"></div>
+					<p id="preview-author"><small class="text-secondary">• Just now</small></p>
+					<p id="preview-content" class="post-content"> </p>
+				</div>
+			</div>
+		</div>
 	</form>
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="/js/view-topic.js" type="module"></script>
