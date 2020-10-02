@@ -32,7 +32,7 @@ export var renderTags = function (element)
 			Object.keys(formatting).forEach(f => {
 				words = words.replace(new RegExp(`(${f})`, 'g'), formatting[f]);
 			});
-			words = words.trim().split(' ');
+			words = words.trim().split(/ |\n|\t|\r/);
 			words.forEach((e, i) => {
 				if (e.includes("[img]") && e.includes("[/img]"))
 				{
