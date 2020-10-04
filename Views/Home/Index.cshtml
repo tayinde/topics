@@ -5,14 +5,52 @@
 
 <div class="text-center container">
     <div class="row h-100">
-        <div class="col-sm-12 my-auto">
-            <h1>Topics</h1>
-            <p>In this site you can engage in discourse about any current topics. You can create discussions about anything appropriate here. See some discussions here.</p>
+        <div class="card col-sm-12 my-auto bg-black-3">
+            <div class='card-body'>
+                <h1 class='body-title font-weight-bold'>Topics</h1>
+                <div class='card-text'>In this site you can engage in discourse about any current topics. You can create and participate in discussions about anything appropriate here.</div>
+            </div>
         </div>
     </div>
     <br>
-    <button onclick="window.location.href='/Topics/Discussions'" class="btn btn-primary">See Discussions</button>
-    <button onclick="window.location.href='/Home/Privacy'" class="btn btn-primary">Privacy</button>
+    <div class="row mx-auto w-100">
+        <div class="card bg-black-3 col-sm-4">
+            <div class='card-body'>
+                <h5 class="card-title font-weight-bold">
+                    See discussions
+                </h5>
+                <div class="card-text">
+                    All topics will be listed in the Discussion page and as long as you are signed in, you can respond to any of them. You can create your own topic by going to your profile and clicking "Create topic".
+                </div>
+                <br>
+                <button onclick="window.location.href='/Topics/Discussions'" class="btn btn-primary">See Discussions</button>
+            </div>
+        </div>
+        <div class="card bg-black-3 col-sm-4">
+            <div class='card-body'>
+                <h5 class="card-title font-weight-bold">
+                    Privacy
+                </h5>
+                <div class="card-text">
+                    This will list the data collected by the site and also how it is used. Some information may be updated and it will be shown on the Privacy page when the last update to the policy was.
+                </div>
+                <br>
+                <button onclick="window.location.href='/Home/Privacy'" class="btn btn-primary">Privacy</button>
+            </div>
+        </div>
+        <div class="card bg-black-3 col-sm-4">
+            <div class='card-body'>
+                <h5 class="card-title font-weight-bold">
+                    Create an account
+                </h5>
+                <div class="card-text">
+                    If you don't have an account already, you can easily create an account in a few seconds and go straight to discussions. Your profile will let you to make discussions and also to change a few other things about your account.
+                </div>
+                <br>
+                <button onclick="window.location.href='/Home/CreateAccount'" class="btn btn-primary">Create an account</button>
+            </div>
+        </div>
+    </div>
 </div>
 @if (Model.LoggedIn && ViewData.ModelState.IsValid)
 {
